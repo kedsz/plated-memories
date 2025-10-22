@@ -1,0 +1,1026 @@
+{
+    "appetizers": {
+        "title": "Appetizers",
+        "recipes": [
+            {
+                "id": "tteokbokki",
+                "name": "Tteokbokki",
+                "imageUrl": "./assets/appetizers/tteokbokki.png",
+                "description": "A widely enjoyed Korean street food featuring chewy, plush rice cakes simmered in a sweet and savoury sauce. Often served with additions like fish cakes and deep-fried foods.",
+                "prepTime": "15 min",
+                "cookTime": "15 min",
+                "servings": "4",
+                "source": "cookbook",
+                "sourceText": "Umma by Sarah Ahn",
+                "sourceSubtext": "A Korean Mom's Kitchen Wisdom and 100 Family Recipes",
+                "ingredients": [
+                    "2 oz (57g) frozen fish cake sheets",
+                    "2 tbsp neutral cooking oil",
+                    "1/2 yellow onion (142g)",
+                    "1/2 daepa (jumbo green onion, 85g)",
+                    "10 oz (284g) tteokbokki tteok (rice cakes)",
+                    "2 cups water",
+                    "2 tbsp sugar",
+                    "2 tbsp gochujang",
+                    "2 tsp gochugaru",
+                    "2 tsp Dasida beef stock powder",
+                    "1 1/2 tsp soy sauce",
+                    "1 tbsp minced garlic",
+                    "1 tbsp toasted sesame oil",
+                    "1 1/2 tsp sesame seeds, toasted, plus extra for sprinkling"
+                ],
+                "preparation": [
+                    "If using frozen rice cakes or fish cakes, thaw them completely first.",
+                    "Submerge the fish cake sheets in hot water and let soak for 1 minute, then drain. Repeat the soaking and draining process once more.",
+                    "Halve the fish cake sheets lengthwise, then slice them crosswise into 1/2-inch-thick pieces.",
+                    "Slice the yellow onion 1/8-inch thick.",
+                    "Trim the daepa (jumbo green onion), halve it lengthwise, and cut it into 2 1/2-inch lengths."
+                ],
+                "instructions": [
+                    "Heat the neutral oil in a 14-inch flat-bottomed wok or 12-inch nonstick skillet over medium-high heat until shimmering.",
+                    "Add the yellow onion and daepa and cook, tossing constantly, until fragrant and evenly coated in the oil, about 1 minute.",
+                    "Add the prepared fish cakes and tteok (rice cakes) and toss to combine.",
+                    "Stir in the water, sugar, gochujang, gochugaru, Dasida powder, and soy sauce until thoroughly combined.",
+                    "Bring the mixture to a boil, then cook, stirring occasionally, until the sauce thickens and coats the tteok, about 10 to 12 minutes.",
+                    "Stir in the garlic. Turn off the heat and stir in the toasted sesame oil and toasted sesame seeds.",
+                    "Transfer the tteokbokki to a serving platter, sprinkle with extra sesame seeds, and serve immediately."
+                ],
+                "notes": "Substitute an equal weight of regular green onions for the daepa.",
+                "tags": [
+                    "cookbook",
+                    "korean",
+                    "street food",
+                    "spicy",
+                    "rice cakes"
+                ]
+            },
+            {
+                "id": "cucumber_kimchi",
+                "name": "Cucumber Kimchi",
+                "imageUrl": "./assets/appetizers/cucumber_kimchi.png",
+                "description": "Oi Kimchi is a popular kimchi to enjoy in the summer because it's easy to prepare and offers a refreshing taste. This is a ready-to-eat kimchi that is vibrantly crisp and savory with a hint of spiciness.",
+                "prepTime": "20 min",
+                "cookTime": "0 min",
+                "servings": "~8 cups",
+                "source": "cookbook",
+                "sourceText": "Umma by Sarah Ahn",
+                "sourceSubtext": "A Korean Mom's Kitchen Wisdom and 100 Family Recipes",
+                "ingredients": [
+                    "3 lbs (1.4 kg) pickling cucumbers (e.g. Kirby)",
+                    "2 1/2 tbsp sugar, divided",
+                    "3 tbsp fine salt",
+                    "1/2 yellow onion (142g)",
+                    "1 oz (45g) garlic chives",
+                    "1 Fresno chile",
+                    "3 1/2 tbsp maesil cheong (plum extract syrup)",
+                    "3 tbsp fish sauce",
+                    "1 tbsp minced garlic",
+                    "2 tbsp gochugaru",
+                    "1 1/2 tsp grated fresh ginger"
+                ],
+                "preparation": [
+                    "Trim the cucumbers, halve them lengthwise (seeding if desired), and slice crosswise into 1-inch thick pieces.",
+                    "Cut the yellow onion into 1 1/2-inch pieces and separate the layers.",
+                    "Cut the garlic chives into 1 1/2-inch lengths.",
+                    "Stem the Fresno chile, halve it lengthwise, and slice it thin crosswise.",
+                    "In a large bowl, toss the cucumbers with 1 tbsp of the sugar and all of the salt. Let sit for 20 minutes, tossing the cucumbers halfway through.",
+                    "Drain the cucumbers in a colander, shaking to release any additional liquid. Rinse and dry the now-empty bowl."
+                ],
+                "instructions": [
+                    "Using your gloved hands, toss the drained cucumbers with the onion, chives, Fresno chile, maesil cheong, fish sauce, garlic, gochugaru, ginger, and the remaining 1 1/2 tablespoons of sugar in the large bowl until evenly combined.",
+                    "Transfer the mixture to a 3-quart storage container, cover, and place in a cool, dry, dark location away from direct sunlight for 2 hours to begin fermentation.",
+                    "Serve immediately for a fresh taste or refrigerate. The flavor will continue to develop over time. It can be stored in the refrigerator for up to 1 1/2 months."
+                ],
+                "notes": "Look for smaller pickling cucumbers like Kirby cucumbers (2 to 3 ounces each) as they contain fewer seeds. Korean cucumbers also work well, but Persian cucumbers are not recommended for this recipe.",
+                "tags": [
+                    "cookbook",
+                    "banchan",
+                    "korean",
+                    "fermented",
+                    "no-cook"
+                ]
+            },
+            {
+                "id": "korean_fried_chicken",
+                "name": "Korean Fried Chicken",
+                "imageUrl": "./assets/appetizers/korean_fried_chicken.png",
+                "description": "Crispy and juicy Korean-style fried chicken, seasoned with a flavorful blend of spices and fried to perfection for an extra crunchy crust.",
+                "prepTime": "25 min",
+                "cookTime": "45 min",
+                "servings": "4-6",
+                "source": "cookbook",
+                "sourceText": "Umma by Sarah Ahn",
+                "sourceSubtext": "A Korean Mom's Kitchen Wisdom and 100 Family Recipes",
+                "ingredients": [
+                    "3 lbs (1.4 kg) chicken wings",
+                    "2 1/2 cups milk",
+                    "2 tsp black pepper, divided",
+                    "1 tsp miwon matsogeum (MSG seasoning salt)",
+                    "3 1/2 cups (420g) Korean frying mix, divided",
+                    "1 tbsp (10g) curry powder, divided",
+                    "1 tbsp Dasida beef stock powder",
+                    "1 tbsp garlic powder",
+                    "1 tbsp onion powder",
+                    "1 1/2 cups cold water",
+                    "2-3 quarts vegetable oil"
+                ],
+                "preparation": [
+                    "Cut chicken wings at the joints, discarding the wingtips. Separate into drumettes and wingettes.",
+                    "In a large bowl, submerge the chicken pieces in milk. Cover and refrigerate for 1 hour.",
+                    "Drain the milk and thoroughly rinse the chicken under cold water until it runs clear. Pat the chicken completely dry with paper towels.",
+                    "Using the tip of a sharp knife, pierce each chicken piece 4 to 5 times on each side around the bone.",
+                    "In a clean bowl, toss the chicken with 1 tsp black pepper and the MSG seasoning salt. Cover and refrigerate for at least 2 hours or overnight.",
+                    "Prepare a wire rack set inside a rimmed baking sheet."
+                ],
+                "instructions": [
+                    "In a large bowl, whisk together 1 cup of the Korean frying mix, 1/2 tbsp of the curry powder, and all of the Dasida, garlic powder, and onion powder to create the dry dredge.",
+                    "In a separate large bowl, whisk the remaining 2 1/2 cups frying mix and the remaining 1/2 tbsp curry powder. Gradually whisk in the cold water to form a batter. Do not overmix; small lumps are okay.",
+                    "In a deep fryer or large, heavy-bottomed pot, heat 2-3 quarts of vegetable oil to 330°F (165°C).",
+                    "Working one piece at a time, toss a piece of chicken in the dry dredge to coat, then dip it into the wet batter, allowing any excess to drip off.",
+                    "Carefully place the battered chicken into the hot oil. Repeat with a few more pieces, cooking in batches to avoid overcrowding the pot.",
+                    "Fry the chicken, turning occasionally, until golden brown, crisp, and cooked through. The internal temperature should register 165°F (74°C). This will take about 5-7 minutes for wingettes and 7-10 minutes for drumettes.",
+                    "Using a slotted spoon, transfer the cooked chicken to the prepared wire rack to drain.",
+                    "Ensure the oil returns to 330°F before frying the next batch. Serve immediately."
+                ],
+                "notes": "<ul class='space-y-2 list-none'><li>For best results, cook the wingettes and drumettes in separate batches as they have different cooking times.</li><li>Once all of the chicken wings have been fried, gently brush the warm <a href='recipe.html?category=basics&id=yangnyeom_sauce' class='text-blue-600'>Yangnyeom sauce</a> onto each individual piece, coating it completely.</li>",
+                "tags": [
+                    "cookbook",
+                    "korean",
+                    "fried",
+                    "crispy"
+                ]
+            }
+        ]
+    },
+    "mains": {
+        "title": "Entrées",
+        "recipes": [
+            {
+                "id": "mexican_rice",
+                "name": "Mexican Rice",
+                "imageUrl": "./assets/mains/mexican_rice.png",
+                "description": "A bright and flavorful rice dish.",
+                "prepTime": "15 min",
+                "cookTime": "40 min",
+                "servings": "10",
+                "source": "family",
+                "sourceText": "Mom",
+                "ingredients": [
+                    "2 cups rice",
+                    "2 green bell peppers",
+                    "2 onions",
+                    "6 green chillies",
+                    "8 cloves garlic",
+                    "2 bunches coriander/cilantro",
+                    "1 cup chicken stock",
+                    "Salt to taste"
+                ],
+                "preparation": [
+                    "Rinse the rice a few times till water is slightly clear and set aside.",
+                    "Roughly chop the onions and bell peppers."
+                ],
+                "instructions": [
+                    "In a large dish, roast these along with the green chillies and garlic till fragrant.",
+                    "Puree the roasted ingredients with the cilantro.",
+                    "Heat some olive oil and toast the rice till lightly brown.",
+                    "To the rice, add the puree, chicken stock and salt.",
+                    "With the dish on medium heat, cover and let cook untoched for 10 minutes or till most of the water is absorbed.",
+                    "Turn off the flame and leave covered for 20 minutes.",
+                    "Fluff the rice before serving."
+                ],
+                "tags": [
+                    "family",
+                    "rice",
+                    "green"
+                ]
+            },
+            {
+                "id": "pork_ribs",
+                "name": "Pork Ribs",
+                "imageUrl": "./assets/mains/pork_ribs.png",
+                "description": "Tender pork ribs in a rich pepper based gravy.",
+                "prepTime": "15 min",
+                "cookTime": "1 hour",
+                "servings": "10",
+                "source": "family",
+                "sourceText": "Mom",
+                "ingredients": [
+                    "1 kg pork ribs",
+                    "1 kg onions",
+                    "1 head garlic",
+                    "2 green chillies",
+                    "2 tbsp ginger",
+                    "1 tsp bafat powder",
+                    "1 tsp black pepper powder",
+                    "1 tbsp white vinegar",
+                    "1 tbsp soy sauce",
+                    "2 tbsp oil",
+                    "1/2 cup dark rum/sherry",
+                    "Salt to taste"
+                ],
+                "preparation": [
+                    "Peel and dice the onions.",
+                    "Peel and crush garlic cloves.",
+                    "Grate the ginger.",
+                    "Slit the green chillies."
+                ],
+                "instructions": [
+                    "Heat the oil over medium heat in a large, heavy-bottomed pot.",
+                    "Add the onions with a pinch of salt and fry until golden brown.",
+                    "Add the garlic and ginger to the pot and fry until there is no raw smell of ginger and garlic.",
+                    "Stir in the green chillies and add the pork ribs.",
+                    "Increase heat to medium-high and sear the ribs until they are lightly browned.",
+                    "Reduce the heat to low. Cover the pot and render the fat, strring occasionally until ribs are semi-tender (~30 to 45 minutes).",
+                    "Add the bafat powder, black pepper, vinger and soy sauce. Stir to coat the ribs well.",
+                    "Pour in the rum and continue cooking on low heat.",
+                    "Once it reduces, add boiling water to cover the ribs and more salt.",
+                    "Continue cooking till ribs are tender and the water has reduced by half to form a thick gravy."
+                ],
+                "tags": [
+                    "family",
+                    "chinese"
+                ]
+            },
+            {
+                "id": "mutton_curry",
+                "name": "Mutton Curry",
+                "imageUrl": "./assets/mains/mutton_curry.png",
+                "description": "Succulent mutton is a spicy thick gravy.",
+                "prepTime": "30 min",
+                "cookTime": "1 hour",
+                "servings": "10",
+                "source": "family",
+                "sourceText": "Emma aunty",
+                "ingredients": [
+                    "1/2 kg mutton",
+                    "1/2 kg onions",
+                    "6 dried red chillies",
+                    "3 green chillies",
+                    "3 cloves",
+                    "2 tomatoes",
+                    "2 cardamom pods",
+                    "2 tbsp oil",
+                    "1 bunch coriander/cilantro",
+                    "1 cinnamon stick",
+                    "1/2 tsp pepper kernels",
+                    "1/2 tsp coriander seeds",
+                    "1/2 tsp cumin seeds",
+                    "1/2 tsp turmeric powder",
+                    "1/4 tsp poppy seeds",
+                    "Salt to taste"
+                ],
+                "preparation": [
+                    "Roast the red chillies, pepper, coriander seeds, cumin and poppy seeds.",
+                    "Slice the onions, green chillies and tomatoes."
+                ],
+                "instructions": [
+                    "Grind the roasted ingredients with the turmeric.",
+                    "Heat the oil over medium heat in a large, heavy-bottomed pot.",
+                    "Add the onions with a pinch of salt and fry until golden brown.",
+                    "Add the ground ingredients and mix well to coat the onions.",
+                    "After the raw spice smell is gone, add the green chillies and tomatoes.",
+                    "Add the mutton and some salt.",
+                    "Cover and cook till the mutton is tender.",
+                    "Once the mutton is tender, cook on low till the gravy thickens.",
+                    "Garnish with chopped coriander."
+                ],
+                "notes": "While grinding the dry spice mix, add a few garlic cloves and a knob of ginger for a flavorful paste.",
+                "tags": [
+                    "family",
+                    "indian"
+                ]
+            },
+            {
+                "id": "galbi_jjim",
+                "name": "Braised Beef Ribs",
+                "imageUrl": "./assets/mains/galbi_jjim.png",
+                "description": "Galbi Jjim is a flavorful and tender braised beef rib stew. This recipe balances savory notes with the natural sweetness of fruit juices.",
+                "prepTime": "50 min",
+                "cookTime": "150 min",
+                "servings": "4-6",
+                "source": "cookbook",
+                "sourceText": "Umma by Sarah Ahn",
+                "sourceSubtext": "A Korean Mom's Kitchen Wisdom and 100 Family Recipes",
+                "ingredients": [
+                    "1 tbsp sugar",
+                    "4 lbs (1.8 kg) beef back ribs",
+                    "1 oz (28g) fresh ginger",
+                    "1 tbsp black peppercorns",
+                    "1 1/2 cups fresh Asian pear juice",
+                    "1/2 cup fresh Fuji apple juice",
+                    "1/4 cup fresh onion juice",
+                    "1/4 cup pineapple juice",
+                    "1/4 cup corn syrup",
+                    "5 tbsp soy sauce",
+                    "3 tbsp oyster sauce",
+                    "2 tbsp sugar",
+                    "2 tbsp mirin",
+                    "2 tbsp toasted sesame oil",
+                    "2 tbsp minced garlic",
+                    "1 tbsp fish sauce",
+                    "2 tsp grated fresh ginger",
+                    "2 tsp black pepper",
+                    "5 green onions (45g)",
+                    "3 carrots (227g), peeled and sliced 1 inch thick",
+                    "8 oz (227g) daikon (Korean radish), sliced 1 inch thick",
+                    "1 oz (28g) dried jujubes",
+                    "2 bay leaves"
+                ],
+                "preparation": [
+                    "Remove the membrane from the beef back ribs and separate them.",
+                    "Peel and chop the fresh ginger.",
+                    "Finely chop 3 of the green onions.",
+                    "Peel and slice the carrots into 1-inch thick pieces, trimming the edges if desired.",
+                    "Slice the daikon into 1-inch thick pieces.",
+                    "Cut the white and light green parts of the remaining 2 green onions into 3-inch lengths."
+                ],
+                "instructions": [
+                    "Dissolve the sugar in 3 quarts of cold water in a large stockpot. Add the ribs and refrigerate for 30 minutes.",
+                    "Transfer the ribs to a bowl and discard the water; clean the pot. Bring 4 quarts of water to a boil in the pot. Add the ribs, half the ginger, and the peppercorns; return to a boil, and blanch for 10 minutes.",
+                    "Transfer the ribs to a colander and discard the water; clean the pot thoroughly. Under cold running water, rinse each rib thoroughly, removing any coagulated particles.",
+                    "For the marinade: Whisk all the marinade ingredients together in a large bowl. Measure out and reserve 1 1/2 cups marinade. Add the ribs to the remaining marinade and toss to coat, then arrange the ribs meat side down. Cover and refrigerate the ribs and the reserved marinade for at least 2 hours or up to 24 hours.",
+                    "Add the reserved marinade, carrots, and radish to an electric pressure cooker. Lock the lid in place and close the pressure-release valve. Select the high pressure-cook function and cook for 1 minute. Turn off the pressure cooker and quick-release the pressure.",
+                    "Add the ribs, meat side down, and their marinade to the pressure cooker. Add the jujubes, bay leaves, and remaining ginger. Make sure the bay leaves are submerged. Lock the lid in place and close the pressure-release valve. Select the high pressure-cook function and cook for 25 minutes. Carefully remove the lid, allowing the steam to escape away from you. Using a slotted spoon, transfer the carrots and radish to a bowl and set aside.",
+                    "Turn on the highest sauté or browning function; cover the pot without locking the lid, and cook for 15 minutes, flipping the ribs halfway through. Stir in the carrots and radish and any accumulated juices. Turn off the pressure cooker and add the green onions. Transfer the ribs, vegetables, and sauce to a serving dish. Serve."
+                ],
+                "notes": "The best ribs for this recipe are 5 to 7 inches long with 1/2 to 1 inch of meat. Back ribs are tasty and more affordable than short ribs. Soaking the meat in water for 30 minutes helps to rid the meat of myoglobin. Skimming the edges of the carrots and Korean radish is a common practice in Korean cooking to create a smooth surface and nicer appearance.",
+                "tags": [
+                    "cookbook",
+                    "korean",
+                    "beef",
+                    "braised",
+                    "instant pot",
+                    "stew"
+                ]
+            },
+            {
+                "id": "kimchi_fried_rice",
+                "name": "Kimchi Fried Rice",
+                "imageUrl": "./assets/mains/kimchi_fried_rice.png",
+                "description": "Kimchi Bokkeumbap is a comforting and flavorful fried rice that uses the fat from stir-frying pork to moisten the dish and infuse it with richness. Tangy, umami-rich kimchi creates a boldly flavored dish perfect for a cozy night in.",
+                "prepTime": "20 min",
+                "cookTime": "40 min",
+                "servings": "4-6",
+                "source": "cookbook",
+                "sourceText": "Umma by Sarah Ahn",
+                "sourceSubtext": "A Korean Mom's Kitchen Wisdom and 100 Family Recipes",
+                "ingredients": [
+                    "1 1/2 cups (312g) short- or medium-grain white rice",
+                    "2 large eggs",
+                    "1 tbsp plus 1/4 tsp sugar, divided",
+                    "1/4 tsp fine salt",
+                    "1 tbsp neutral cooking oil",
+                    "12 oz (340g) skinless pork belly",
+                    "4 green onions",
+                    "2 cloves garlic",
+                    "2 1/2 cups (510g) well-fermented cabbage kimchi",
+                    "1 tbsp gochugaru",
+                    "1 1/2 tsp Dasida beef stock powder",
+                    "2 tbsp oyster sauce",
+                    "1/4 oz (4g) shredded seasoned roasted seaweed, plus extra for garnish",
+                    "Toasted sesame oil (optional)"
+                ],
+                "preparation": [
+                    "Add rice to a bowl, cover with water, swish to release starch, and drain. Repeat 5 or more times until water runs mostly clear.",
+                    "Cook the rice using your preferred method. Once cooked, fluff the rice, transfer to a large plate or baking sheet in a single layer, and let cool for at least 30 minutes.",
+                    "Slice the pork belly into rough 1/2-inch pieces.",
+                    "Chop the green onions and mince the garlic",
+                    "Thinly slice the kimchi",
+                    "In a small bowl, lightly beat the eggs with 1/4 teaspoon sugar and the salt."
+                ],
+                "instructions": [
+                    "Heat the neutral oil in a 14-inch wok or large nonstick skillet over medium-high heat. Add the egg and cook, stirring constantly, until soft curds form, about 1 minute. Transfer to a plate and set aside.",
+                    "In the same now-empty wok, cook the pork belly in three batches over medium-high heat until the fat has rendered and the meat is browning. Transfer the cooked pork to a paper towel-lined plate, reserving about 3 tablespoons of the rendered pork fat.",
+                    "Wipe the wok clean. Add the 3 tablespoons of reserved pork fat and heat over medium-high heat until shimmering.",
+                    "Add the kimchi and cook until fragrant, about 1 minute. Add the green onions and garlic and cook for 1 more minute.",
+                    "Stir in the gochugaru, Dasida powder, and the remaining 1 tablespoon of sugar. Cook for 30 seconds, then add the cooked pork belly and stir to combine.",
+                    "Reduce the heat to medium. Add the cooled rice, breaking up any clumps with a spatula. Toss frequently until the rice is heated through, about 2 minutes.",
+                    "Add the oyster sauce and toss to combine. Fold in the scrambled egg and shredded seaweed, being careful not to break up the egg curds.",
+                    "Serve immediately, garnished with extra seaweed and a drizzle of toasted sesame oil, if desired."
+                ],
+                "notes": "This recipe uses freshly made, slightly moist rice rather than day-old rice.",
+                "tags": [
+                    "cookbook",
+                    "korean",
+                    "kimchi",
+                    "pork",
+                    "bokkeumbap"
+                ]
+            },
+            {
+                "id": "la_galbi",
+                "name": "Korean BBQ Short Ribs",
+                "imageUrl": "./assets/mains/la_galbi.png",
+                "description": "LA Galbi is a classic Korean BBQ dish featuring flanken-style short ribs marinated in a savory and sweet sauce with fruit juices. The thin cut allows for quick cooking and maximum flavor absorption.",
+                "prepTime": "45 min",
+                "cookTime": "60 min",
+                "servings": "4-6",
+                "source": "cookbook",
+                "sourceText": "Umma by Sarah Ahn",
+                "sourceSubtext": "A Korean Mom's Kitchen Wisdom and 100 Family Recipes",
+                "ingredients": [
+                    "2 tbsp sugar, divided",
+                    "3 lbs (1.4 kg) flanken-style short ribs",
+                    "1 1/4 cup fresh Asian pear juice",
+                    "3 tbsp soy sauce",
+                    "1/4 cup fresh Fuji apple juice",
+                    "1/4 cup fresh onion juice",
+                    "1/4 cup pineapple juice",
+                    "1/4 cup mirin",
+                    "2 green onions, chopped fine",
+                    "2 tbsp toasted sesame oil",
+                    "1 tbsp minced garlic",
+                    "1 1/2 tsp fish sauce",
+                    "1 tsp grated fresh ginger",
+                    "1 tsp black pepper",
+                    "2 green onions"
+                ],
+                "preparation": [
+                    "Trim the short ribs and cut into 1/4 inch thick slices.",
+                    "Slice the green onions for garnishing",
+                    "In a large bowl, dissolve 1 tablespoon of the sugar in 2 quarts of cold water. Add the ribs and refrigerate for 30 minutes to soak.",
+                    "Transfer the ribs to a colander, discard the water, and rinse each rib thoroughly under cold running water to remove any bone fragments. Let the ribs drain in the colander for 30 minutes.",
+                    "In a large bowl, prepare the marinade by whisking together the remaining 1 tablespoon of sugar with all other marinade ingredients (from pear juice to black pepper) until the sugar has dissolved.",
+                    "In a large storage container, layer the drained ribs and pour the marinade over them. Cover and refrigerate for at least 24 hours and up to 2 days, flipping the ribs halfway through the marinating time."
+                ],
+                "instructions": [
+                    "Working in batches, arrange 3 to 4 ribs in a single layer in a 12-inch nonstick skillet. Add 1 tablespoon of the marinade from the container.",
+                    "Cook over medium-high heat for about 5 minutes, until the marinade reduces slightly and the edges of the ribs begin to brown.",
+                    "Flip the ribs and cook for another 5 minutes, until the marinade has reduced by half. Use kitchen shears to cut the ribs between the bones into smaller pieces.",
+                    "Reduce the heat to medium and continue cooking, turning occasionally, for 3 to 5 minutes, until the marinade has evaporated and the ribs are lightly caramelized.",
+                    "Transfer the cooked ribs to a platter and tent with foil to keep warm. Wipe the skillet clean.",
+                    "Repeat the cooking process with the remaining ribs in batches.",
+                    "After the last batch is cooked, return all the ribs to the skillet briefly to warm through.",
+                    "Garnish with sliced green onions and serve immediately."
+                ],
+                "notes": "The best ribs for this are about 8 inches long with significant marbling. For an enhanced serving option, pan-fry sliced yellow onion in some of the marinade and serve the cooked galbi on top.",
+                "tags": [
+                    "cookbook",
+                    "korean",
+                    "bbq",
+                    "beef"
+                ]
+            },
+            {
+                "id": "mushroom_galette",
+                "name": "Crispy Mushroom Galette",
+                "imageUrl": "./assets/mains/mushroom_galette.png",
+                "description": "A savory galette with a base of melty leeks, umami-rich mushrooms, and a flaky crust.",
+                "prepTime": "60 min",
+                "cookTime": "45 min",
+                "servings": "4-6",
+                "source": "cookbook",
+                "sourceText": "Dessert Person by Claire Saffitz",
+                "sourceSubtext": "Recipes and Guidance for Baking with Confidence",
+                "ingredients": [
+                    "1 recipe Flaky All-Butter Pie Dough",
+                    "7 tbsp (100g) extra-virgin olive oil, plus more for brushing",
+                    "1 bunch leeks (about 8 oz / 226g)",
+                    "1 tbsp grainy Dijon mustard",
+                    "Kosher salt and freshly ground black pepper",
+                    "1 lb (454g) mixed mushrooms (shiitake, cremini, oyster)",
+                    "4 cloves garlic",
+                    "2 rosemary or thyme sprigs",
+                    "1 tbsp chopped fresh rosemary or thyme",
+                    "All-purpose flour, for rolling",
+                    "2 tbsp panko bread crumbs",
+                    "2 tsp nutritional yeast"
+                ],
+                "preparation": [
+                    "Prepare one recipe of Flaky All-Butter Pie Dough.",
+                    "Discard dark green tops from leeks, then split lengthwise, rinse, and slice thin.",
+                    "Slice or tear mushrooms into 1-inch pieces.",
+                    "Smash 3 garlic cloves and finely grate the 4th."
+                ],
+                "instructions": [
+                    "Preheat the oven to 350°F (175°C). Line a rimmed baking sheet with parchment paper.",
+                    "In a medium skillet, heat 2 tablespoons of oil over medium-low. Add the leeks and cook, stirring often, until soft, 10 to 12 minutes. Stir in the mustard, salt, and pepper. Remove from the skillet and set aside.",
+                    "In the same skillet, heat 2 tablespoons of oil over medium. Add half the mushrooms, 2 of the smashed garlic cloves, and 1 herb sprig. Season with salt and pepper and cook until browned, 5 to 8 minutes. Transfer to a bowl. Repeat with another 2 tablespoons oil and the remaining mushrooms, garlic, and herb sprig. Reserve the skillet.",
+                    "On a lightly floured surface, roll the pie dough into a 12-inch round. Transfer it to the prepared baking sheet.",
+                    "Spread the leek mixture evenly over the dough, leaving a 1 1/2-inch border. Scatter the cooked mushrooms over the leeks.",
+                    "Fold the crust by folding the sides of the pastry up and over the filling, creating evenly spaced pleats. Press firmly on the pleats to seal.",
+                    "Brush the pastry crust with olive oil and sprinkle with salt and pepper.",
+                    "Bake for 40 to 45 minutes, until the pastry is golden brown and the mushrooms are crispy.",
+                    "While the galette bakes, heat the remaining 1 tablespoon of oil in the reserved skillet over medium heat. Add the panko, nutritional yeast, grated garlic, and chopped herbs. Cook, stirring constantly, until golden and fragrant, about 4 minutes. Transfer to a paper towel-lined plate.",
+                    "Let the baked galette cool slightly on the pan, then top with the garlicky bread crumbs. Slice and serve warm or at room temperature."
+                ],
+                "notes": "To ensure the mushrooms brown properly, wait to salt them until they have already developed some color in the pan.",
+                "tags": [
+                    "cookbook",
+                    "baking",
+                    "vegetarian"
+                ]
+            }
+        ]
+    },
+    "sides": {
+        "title": "Sides",
+        "recipes": [
+            {
+                "id": "carrot_salad",
+                "name": "Carrot & Yogurt Salad",
+                "imageUrl": "./assets/sides/carrot_salad.png",
+                "description": "Grated and steamed carrots in a tangy spiced yogurt mixture. My family's take on the Turkish dish - Havuç Tarator",
+                "prepTime": "20 min",
+                "cookTime": "15 min",
+                "servings": "6",
+                "source": "family",
+                "sourceText": "Rosy Aunty",
+                "ingredients": [
+                    "2 carrots",
+                    "3 spring onions",
+                    "1 green chilli",
+                    "2 cups (500 g) yogurt",
+                    "1 tsp mustard seeds",
+                    "1 tsp sugar",
+                    "1 tbsp oil",
+                    "3 cloves garlic",
+                    "Salt to taste"
+                ],
+                "preparation": [
+                    "Grate the carrots.",
+                    "Finely chop the spring onions, garlic and green chilli."
+                ],
+                "instructions": [
+                    "Steam the carrots until tender.",
+                    "In a bowl, mix the yogurt with the chopped ingredients, sugar and salt.",
+                    "Add the steamed carrots and stir into yogurt mixture till combined.",
+                    "Sputter the mustard seeds in a small pan with the heated oil.",
+                    "Add the tadka to the carrot mixture."
+                ],
+                "tags": [
+                    "family",
+                    "salad",
+                    "curd"
+                ]
+            },
+            {
+                "id": "brinjal_salad",
+                "name": "Brinjal Salad",
+                "imageUrl": "./assets/sides/brinjal_salad.png",
+                "description": "Funny story - One day in second grade, we had a discussion about salads in class and we were asked to name our favorite salads. I enthusiastically put my hand up and answered \"Brinjal Salad\" only to be met by the confused stares of my classmates and teacher. At the time, I thought it was such a unique dish that people hadn't heard of it and they didn't know what they were missing out on. Years later I realized this was not a 'salad' by any means and the dish is similar to a Kurdish dish called Bacanreşk Bi Mast Û Sîr.",
+                "prepTime": "20 min",
+                "cookTime": "30 min",
+                "servings": "8",
+                "source": "family",
+                "sourceText": "Mom",
+                "ingredients": [
+                    "2 brinjals/eggplants",
+                    "1 cup gram flour",
+                    "1 tsp chilli powder",
+                    "2 cups (500 g) yogurt",
+                    "2 green chillies",
+                    "5 cloves garlic",
+                    "1 bunch coriander/cilantro",
+                    "A knob of ginger",
+                    "Salt to taste",
+                    "Oil to fry"
+                ],
+                "preparation": [
+                    "Cut the brinjal into 1 cm thick disks. (Do not peel the brinjal)",
+                    "Add the brinjal to a bowl of salt water and set aside for 10 minutes."
+                ],
+                "instructions": [
+                    "Combine the gram flour, chilli powder and salt.",
+                    "Add a little water at a time to create a thick batter that can coat the brinjal slices.",
+                    "Drain the brinjal slices and dip in batter.",
+                    "Heat some oil and deep fry the slices until golden brown. Do not crowd while frying.",
+                    "Take a small portion of the yogurt and grind it with the green chilli, garlic and ginger",
+                    "Add this yogurt mixture to the remaining yogurt. Stir to combine.",
+                    "Chop the coriander and add it to the yogurt mixture.",
+                    "Layer the brinjal and yogurt mixture and refigerate.",
+                    "Serve chilled."
+                ],
+                "notes": "Instead of deep frying, the slices can be pan fried.",
+                "tags": [
+                    "family",
+                    "salad",
+                    "yogurt",
+                    "curd",
+                    "fried"
+                ]
+            },
+            {
+                "id": "papaya_salad",
+                "name": "Papaya Avocado Salad",
+                "imageUrl": "./assets/sides/papaya_salad.png",
+                "description": "A bright and refreshing salad that incorporates fruits and greens.",
+                "prepTime": "20 min",
+                "cookTime": "-",
+                "servings": "6",
+                "source": "family",
+                "sourceText": "Kavi",
+                "ingredients": [
+                    "1 head romaine lettuce",
+                    "1 papaya",
+                    "1 avocado",
+                    "1 red onion",
+                    "1/4 cup sugar",
+                    "1/2 tsp mustard",
+                    "1/2 cup white wine vinegar",
+                    "1/2 cup olive oil",
+                    "2 tsp salt",
+                    "2 green onions"
+                ],
+                "instructions": [
+                    "Tear lettuce into bite sized pieces.",
+                    "Peel and halve the papaya. Scoop out and reserve 2 tbsp of the seeds.",
+                    "Blend the papaya seeds along with the sugar, mustard, vinegar, the whites of the green onion, salt and olive oil.",
+                    "Slice the papaya, avocado and onions.",
+                    "In a large bowl, add the lettuce, papaya, avocado and onions.",
+                    "Generously coat with dressing and toss."
+                ],
+                "notes": "Throw in other ripe fruits like pomegranate or strawberries.",
+                "tags": [
+                    "family",
+                    "salad",
+                    "fruit"
+                ]
+            },
+            {
+                "id": "chile_pickle",
+                "name": "Green Chile Pickles",
+                "imageUrl": "./assets/sides/chile_pickle.png",
+                "description": "Gochu Jangajji is salty, sweet, and crunchy pickle that transforms green chiles into a delicious banchan. Convenient to have in the refrigerator to enjoy with rice or stews.",
+                "prepTime": "25 min",
+                "cookTime": "5 min",
+                "servings": "Makes 9 cups",
+                "source": "cookbook",
+                "sourceText": "Umma by Sarah Ahn",
+                "sourceSubtext": "A Korean Mom's Kitchen Wisdom and 100 Family Recipes",
+                "ingredients": [
+                    "1 1/2 lbs (680g) putgochu (young green Korean chiles)",
+                    "4 1/2 cups water",
+                    "1 1/4 cups distilled white vinegar",
+                    "1 cup soy sauce",
+                    "1 1/4 cups (248g) sugar"
+                ],
+                "preparation": [
+                    "Wash the chiles and trim the stems, being careful not to cut too close to the ends.",
+                    "Pat the chiles dry with paper towels.",
+                    "Pierce each chile once with a fork to allow the brine to penetrate.",
+                    "Tightly pack the chiles into a 2-quart glass jar."
+                ],
+                "instructions": [
+                    "In a large saucepan, combine the water, vinegar, soy sauce, and sugar. Bring to a boil, stirring to dissolve the sugar.",
+                    "Remove the saucepan from the heat and let the brine cool for about 5 minutes. It should still be hot.",
+                    "Pour the hot brine over the chiles until they are just covered. You may have extra brine.",
+                    "Place a small dish or a pickling weight over the top of the chiles to keep them completely submerged.",
+                    "Let the jar cool to room temperature, about 2 hours.",
+                    "Cover the jar tightly and place it in a cool, dark location away from direct sunlight for about 1 week, or until the chiles turn olive green.",
+                    "Transfer the chiles to the refrigerator and let them pickle for at least 3 months before serving. The flavor will continue to develop over time."
+                ],
+                "notes": "Use young green Korean chiles for this recipe as they have a mild heat and retain their crunch. Don't trim the chile stems too close to the end, or the seeds will be exposed. The pickles are ready to eat when they have turned a brownish green color.",
+                "tags": [
+                    "cookbook",
+                    "korean",
+                    "banchan",
+                    "preserved"
+                ]
+            },
+            {
+                "id": "spicy_chile_pickle",
+                "name": "Spicy Green Chile Pickles",
+                "imageUrl": "./assets/sides/spicy_chile_pickle.png",
+                "description": "Gochu Jangajji Muchim is a punchy and complex banchan that takes pre-made Gochu Jangajji and seasons them with a spicy, sweet, and savory sauce. A simple way to enhance the flavor of the pickles.",
+                "prepTime": "15 min",
+                "cookTime": "-",
+                "servings": "4-6",
+                "source": "cookbook",
+                "sourceText": "Umma by Sarah Ahn",
+                "sourceSubtext": "A Korean Mom's Kitchen Wisdom and 100 Family Recipes",
+                "ingredients": [
+                    "8 oz (227g) <a href='recipe.html?category=sides&id=chile_pickle' class='text-blue-600'>Gochu Jangajji</a>",
+                    "3 tbsp gochugaru",
+                    "1 tbsp sesame seeds",
+                    "3 1/2 tbsp fish sauce",
+                    "3 1/2 tsp sugar",
+                    "1 tbsp toasted sesame oil",
+                    "1 tbsp minced garlic",
+                    "1 1/2 tsp maesil cheong (plum extract syrup)",
+                    "2 green onions"
+                ],
+                "preparation": [
+                    "Using tongs, lift the Gochu Jangajji from their container, allowing excess brine to drip off. Drain them well and reserve 1/4 cup of the pickle brine.",
+                    "Toast the sesame seeds and coarsely grind them.",
+                    "Chop the green onions.",
+                    "Optional: For easier eating, use kitchen shears to cut the pickles into bite-size pieces."
+                ],
+                "instructions": [
+                    "In a medium bowl, whisk together the reserved 1/4 cup of pickle brine, gochugaru, ground sesame seeds, fish sauce, sugar, toasted sesame oil, garlic, and maesil cheong to create the sauce.",
+                    "Add the drained pickled chiles and the chopped green onions to the sauce.",
+                    "Using your gloved hands, gently toss until the pickles and onions are evenly coated with the sauce.",
+                    "Serve immediately. The dish can be refrigerated in an airtight container for up to 4 days."
+                ],
+                "notes": "When removing the pickles from their original container, allow them to drain thoroughly so the final dish isn't watery. The entire pickle, including the stem, is edible.",
+                "tags": [
+                    "cookbook",
+                    "korean",
+                    "banchan",
+                    "spicy",
+                    "no-cook"
+                ]
+            },
+            {
+                "id": "braised_potatoes",
+                "name": "Braised Baby Potatoes",
+                "imageUrl": "./assets/sides/braised_potatoes.png",
+                "description": "Algamja Jorim uses potatoes that are boiled, pan-fried and then tossed with a sticky, savory gochujang sauce. The potatoes become extremely chewy and crisp with a satisfying popping texture.",
+                "prepTime": "15 min",
+                "cookTime": "35 min",
+                "servings": "4",
+                "source": "cookbook",
+                "sourceText": "Umma by Sarah Ahn",
+                "sourceSubtext": "A Korean Mom's Kitchen Wisdom and 100 Family Recipes",
+                "ingredients": [
+                    "12 oz (340g) baby yellow potatoes, unpeeled",
+                    "1 tsp fine salt",
+                    "1/3 cup water",
+                    "2 tbsp plus 1/2 tsp soy sauce",
+                    "1 tbsp corn syrup",
+                    "1 tbsp neutral cooking oil",
+                    "1 tbsp sugar",
+                    "1 1/2 tsp sesame seeds, toasted",
+                    "1 green onion, sliced thin",
+                    "1/2 tsp gochugaru"
+                ],
+                "preparation": [
+                    "Toast the sesame seeds and thinly slice the green onion.",
+                    "In a small bowl, whisk together the 1/3 cup water, soy sauce, and corn syrup to create the sauce. Set aside.",
+                    "In a wok or large skillet, add the potatoes and salt, then cover with water by 1 inch. Bring to a boil and cook for 10 minutes until par-cooked.",
+                    "Drain the potatoes well and pat them completely dry with paper towels."
+                ],
+                "instructions": [
+                    "Wipe the wok dry. Heat the neutral oil over medium heat until shimmering.",
+                    "Add the boiled and dried potatoes. Cook, tossing occasionally, for about 8 minutes, until the skins are wrinkled and the potatoes are nearly tender.",
+                    "Pour the prepared sauce into the wok, toss to coat the potatoes, and bring to a simmer. Cover and cook for 1 minute.",
+                    "Uncover and continue to cook, tossing, for about 6 minutes, until the potatoes are fully tender and the sauce has slightly thickened.",
+                    "Increase the heat to medium-high and add the sugar. Cook, tossing constantly, for about 4 minutes, until the sauce has reduced to a syrupy glaze.",
+                    "Remove the wok from the heat. Stir in the toasted sesame seeds, green onion, and gochugaru.",
+                    "Serve immediately. Leftovers can be refrigerated for up to 4 days."
+                ],
+                "notes": "Use baby potatoes that are about 3/4 to 1 inch in diameter. If you can only find larger baby potatoes, cut them into 1-inch pieces before boiling.",
+                "tags": [
+                    "cookbook",
+                    "korean",
+                    "banchan"
+                ]
+            }
+        ]
+    },
+    "desserts": {
+        "title": "Desserts",
+        "recipes": [
+            {
+                "id": "butterscotch",
+                "name": "Butterscotch Custard",
+                "imageUrl": "./assets/desserts/butterscotch.png",
+                "description": "A set custard that is silky smooth, topped with a praline for a crunchy texture contrast.",
+                "prepTime": "10 min",
+                "cookTime": "1 hour",
+                "servings": "10",
+                "source": "family",
+                "sourceText": "Peter Uncle",
+                "ingredients": [
+                    "3 cups milk",
+                    "2 egg yolks",
+                    "2 tsp custard powder",
+                    "3 tsp gelatin",
+                    "1 tsp vanilla essence",
+                    "1 cup granulated sugar",
+                    "A pinch of salt"
+                ],
+                "instructions": [
+                    "Hydrate the gelatine in a small bowl with cold water",
+                    "Heat the milk on the stove until it is simmering.",
+                    "In a separate bowl, whisk the egg yolks, sugar and the custard powder when the milk reaches a simmer.",
+                    "Temper the egg mixture by slowly adding some of the milk while whisking constantly.",
+                    "Return the mixture to the stove on low heat or in a double boiler.",
+                    "Whisk constantly until the mixture thickens and holds the marks of the whisk.",
+                    "Add the vanilla essence and hydrated gelatin to the custard and mix well.",
+                    "Pour the mixture into a large shallow dish and let it set in the fridge.",
+                    "When partially set, sprinkle with the prepared <a href='recipe.html?category=basics&id=praline_powder' class='text-blue-600'>praline powder</a>."
+                ],
+                "notes": "Substitue custard powder with an equal amount of corn starch.",
+                "tags": [
+                    "family",
+                    "custard",
+                    "vanilla",
+                    "milk"
+                ]
+            },
+            {
+                "id": "scones",
+                "name": "Chocolate Chip Scones",
+                "imageUrl": "./assets/desserts/scones.png",
+                "description": "If you want a chocolate chip cookie for breakfast, look no further. These scones are rich, decadant and pair perfectly with a cup of coffee.",
+                "prepTime": "10 min",
+                "cookTime": "40 min",
+                "servings": "8",
+                "source": "family",
+                "sourceText": "Keith",
+                "ingredients": [
+                    "3.5 cups flour",
+                    "5 tsp baking powder",
+                    "1/4 cup granulated sugar",
+                    "3/4 cup milk",
+                    "1/4 cup cream",
+                    "1 cup chocolate chips",
+                    "1 egg",
+                    "115 g cold butter",
+                    "A pinch of salt"
+                ],
+                "preparation": [
+                    "Mix the chocolate chips with a tablespoon of flour.",
+                    "Cut the butter into cubes and keep it back in the fridge."
+                ],
+                "instructions": [
+                    "In a bowl, combine the egg with the milk and cream.",
+                    "In a large bowl, whish together the flour, sugar and baking powder.",
+                    "Toss the cold butter in the flour mixture and work the butter in till the mixture resembles the texture of sand.",
+                    "Add the chocolate chips to the mixture and combine.",
+                    "Make a well in the middle and add the wet ingredients. Mix until just combined.",
+                    "Use some bench flour on your work surface and roll out your dough to ~1.5 inch thickness.",
+                    "Cut into desired shapes and place on baking sheet.",
+                    "Preheat the oven to 180°C/350°F. Place the baking sheet in the fridge while the oven preheats.",
+                    "Brush the tops with cream and bake for 35-40 minutes or until golden brown."
+                ],
+                "notes": "<ul class='space-y-2 list-none'><li>Turn this into a savoury scone by using cheddar cheese, instead of chocolate chips, or even bacon. The rendered bacon fat can be used in the dough with the butter.</li><li>Keep the wet ingredients in the fridge, keeping everything cold help keep the butter from melting.</li></ul>",
+                "tags": [
+                    "family",
+                    "baking",
+                    "butter"
+                ]
+            },
+            {
+                "id": "nyc_cookies",
+                "name": "Stuffed NYC Cookies",
+                "imageUrl": "./assets/desserts/nyc_cookies.png",
+                "description": "Gooey, chocolate-stuffed New York style cookies with roasted hazelnuts for an extra crunch.",
+                "prepTime": "60 min",
+                "cookTime": "20 min",
+                "servings": "12",
+                "source": "youtube",
+                "sourceText": "Cupcake Jemma",
+                "sourceLink": "https://youtu.be/TxjzXRDPj2E?si=m6KoZSLzysRSnQXg",
+                "ingredients": [
+                    "355g flour",
+                    "60g cocoa powder",
+                    "1.5 tsp baking powder",
+                    "150g dark chocolate chips",
+                    "40g chopped roasted hazelnuts",
+                    "190g cold butter",
+                    "135g white sugar",
+                    "135 brown sugar",
+                    "2 eggs",
+                    "12 tsp of filling of choice (e.g., Nutella, Biscoff)"
+                ],
+                "preparation": [
+                    "Spoon out 12 teaspoons of your desired filling onto a parchment-lined tray and freeze until solid.",
+                    "Cube the butter and return to the fridge."
+                ],
+                "instructions": [
+                    "Spoon out 12 teaspoons of your desired filling onto a parchment-lined tray and freeze until solid.",
+                    "In a bowl, combine the flour, cocoa powder, and baking powder.",
+                    "In a deep bowl, mix the cold butter with the white and brown sugars to form clumps.",
+                    "Add the chocolate chips and the roasted hazelnuts and mix to form a crumble.",
+                    "Add the flour mixture and combine at a low speed, then add the eggs one at a time.",
+                    "Separate the cookie dough into 12 equal parts by weight and wrap each part around a piece of the frozen filling, rolling into a ball.",
+                    "Freeze the cookie balls for a minimum of 2 hours.",
+                    "Preheat oven to 180°C (350°F) with the baking tray inside.",
+                    "Place the frozen cookie balls on the heated sheet and bake for 16-20 minutes."
+                ],
+                "notes": "Freezing the filling and the cookie balls is a crucial step to ensure the cookies don't spread too much and the filling stays inside.",
+                "tags": [
+                    "youtube",
+                    "cookies",
+                    "dessert",
+                    "baking",
+                    "chocolate",
+                    "stuffed"
+                ]
+            }
+        ]
+    },
+    "basics": {
+        "title": "Basics",
+        "recipes": [
+            {
+                "id": "praline_powder",
+                "name": "Praline Powder",
+                "imageUrl": "./assets/basics/praline_powder.png",
+                "description": "The perfect choice when you want a crunchy sweet topping.",
+                "prepTime": "5 min",
+                "cookTime": "5 min",
+                "servings": "A small jar",
+                "source": "family",
+                "sourceText": "Peter Uncle",
+                "ingredients": [
+                    "3 tbsp desicated coconut",
+                    "3 tbsp chopped cashew nuts",
+                    "3 tbsp granulated sugar",
+                    "2 tsp ghee/clarified butter",
+                    "A pinch of salt"
+                ],
+                "instructions": [
+                    "In a pan, heat the ghee and add the remaining ingredients.",
+                    "Lightly toast until golden brown.",
+                    "Set aside and let it cool completely",
+                    "Powder coarsely to reach desired texture but not to fine a powder."
+                ],
+                "tags": [
+                    "family",
+                    "topping",
+                    "coconut",
+                    "cashew"
+                ]
+            },
+            {
+                "id": "chilli_crisp",
+                "name": "Chili Crisp",
+                "imageUrl": "./assets/basics/chilli_crisp.png",
+                "description": "A fragrant and versatile homemade chili crisp oil, packed with layers of flavor from various spices and aromatics.",
+                "prepTime": "15 min",
+                "cookTime": "15 min",
+                "servings": "~3 cups",
+                "source": "family",
+                "sourceText": "Steffi",
+                "ingredients": [
+                    "3 cups neutral oil",
+                    "5 shallots",
+                    "1 whole head of garlic",
+                    "1 inch cinnamon stick",
+                    "2 star anise",
+                    "2 cups chilli flakes",
+                    "2 tbsp gochugaru",
+                    "1 heaping tbsp Kashmiri chilli powder",
+                    "1 tbsp garlic powder",
+                    "1/2 tbsp salt",
+                    "2 tbsp vinegar",
+                    "2 tbsp sesame seeds (optional)"
+                ],
+                "preparation": [
+                    "Thinly slice the shallots and garlic.",
+                    "Toast the seasame seeds."
+                ],
+                "instructions": [
+                    "In a large heatproof bowl, combine the chilli flakes, gochugaru, Kashmiri chilli powder, garlic powder, and salt. Mix well and set aside.",
+                    "Pour the neutral oil into a pot or wok. Add the sliced shallots, sliced garlic, cinnamon stick, and star anise.",
+                    "Heat the oil over medium heat, stirring occasionally, until the shallots and garlic become golden and crispy. This can take 10-15 minutes.",
+                    "Carefully pour the hot infused oil through a sieve into the bowl with the chilli flakes mixture. The oil should be between 115-120°C (240-250°F) to toast the spices without burning them. Stir everything together.",
+                    "Remove and discard the whole spices.",
+                    "Once the oil has cooled slightly, add the crispy shallots and garlic back into the oil.",
+                    "Stir in the vinegar and optional toasted sesame seeds.",
+                    "Allow the chili crisp to cool completely before transferring to a sealed container."
+                ],
+                "notes": "<ul class='space-y-2 list-none'><li>Store in a sealed container in the fridge for up to 3 months.</li><li>Add store bought fried onions once the oil is colled for extra crunch.</li></ul>",
+                "tags": [
+                    "family",
+                    "condiment",
+                    "chili oil",
+                    "spicy",
+                    "asian"
+                ]
+            },
+            {
+                "id": "yangnyeom_sauce",
+                "name": "Yangnyeom Sauce",
+                "imageUrl": "./assets/basics/yangnyeom_sauce.png",
+                "description": "A classic sweet, spicy, and sticky sauce for Korean Fried Chicken. This sauce perfectly coats crispy chicken, adding a layer of irresistible flavor.",
+                "prepTime": "5 min",
+                "cookTime": "5 min",
+                "servings": "~1 cup",
+                "source": "cookbook",
+                "sourceText": "Umma by Sarah Ahn",
+                "sourceSubtext": "A Korean Mom's Kitchen Wisdom and 100 Family Recipes",
+                "ingredients": [
+                    "7 tbsp (119g) ketchup",
+                    "7 tbsp (105g) sriracha",
+                    "1/3 cup water",
+                    "5 tbsp honey",
+                    "3 tbsp minced garlic",
+                    "2 tbsp sugar",
+                    "2 tbsp mirin",
+                    "1 tbsp soy sauce",
+                    "1 tbsp gochujang",
+                    "1 tsp gochugaru",
+                    "1 tsp Dasida beef stock powder"
+                ],
+                "preparation": [
+                    "Mince the garlic."
+                ],
+                "instructions": [
+                    "Whisk all of the sauce ingredients together in a small saucepan.",
+                    "Bring the mixture to a simmer over medium heat, stirring occasionally.",
+                    "Cook for about 4 minutes, or until the sauce has thickened slightly. Remove from the heat."
+                ],
+                "tags": [
+                    "cookbook",
+                    "korean",
+                    "spicy",
+                    "sweet"
+                ]
+            }
+        ]
+    }
+}

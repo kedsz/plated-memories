@@ -1,0 +1,68 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/* Custom scrollbar hiding */
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+/* Custom font */
+body {
+    font-family: 'Inter', sans-serif;
+    padding-top: 68px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+.logo-font {
+    font-family: "Tangerine", cursive;
+}
+
+/* Style for the active navigation link */
+.active-nav-link {
+    background: #ffb86a;
+    border-radius: 0.5rem;
+    font-weight: 600;
+}
+
+/* Transition for search drawer */
+#search-drawer {
+    transition: transform 0.3s ease-in-out;
+}
+
+#recipe-instructions li {
+    position: relative;
+    padding-left: 2rem;
+    /* space for the counter */
+    margin-bottom: 1rem;
+}
+
+#recipe-instructions li::before {
+    content: counter(step-counter);
+    counter-increment: step-counter;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: var(--counter-text-color, #bb4d00);
+    background-color: var(--counter-bg-color, #fff7ed);
+    border-radius: 50%;
+    width: 1.5rem;
+    height: 1.5rem;
+    font-size: 0.875rem;
+}

@@ -23,6 +23,7 @@ export function createRecipeCard(categoryKey, recipe, divClass) {
 /**
 * Creates a smaller card for search results.
 * @param {object} recipe - The recipe data object.
+ * @returns {string} - The HTML string for the recipe card in the search drawer.
 */
 function createSearchResultCard(recipe) {
     return `
@@ -44,10 +45,9 @@ function setupCarousel(categoryKey) {
 
     if (!container || !leftBtn || !rightBtn) return;
 
-    const scrollAmount = container.querySelector('div').offsetWidth + 24; // Card width + margin
+    const scrollAmount = container.querySelector('div').offsetWidth + 24;
 
     function updateButtonState() {
-        // Use a small tolerance for floating point issues
         const tolerance = 1;
         leftBtn.disabled = container.scrollLeft <= tolerance;
         rightBtn.disabled = container.scrollLeft >= container.scrollWidth - container.clientWidth - tolerance;
@@ -80,7 +80,6 @@ function createCategorySection(categoryKey, categoryData, container) {
 
     // Sort recipes alphabetically by name before creating the cards
     const sortedRecipes = [...categoryData.recipes].sort((a, b) => a.name.localeCompare(b.name));
-    // const recipeCardsHTML = sortedRecipes.map(createRecipeCard).join('');
     let recipeCardsHTML = '';
     sortedRecipes.forEach(function (recipe) {
         recipeCardsHTML += createRecipeCard(categoryKey, recipe, "flex-shrink-0 w-64 md:w-72 mr-6 snap-start");

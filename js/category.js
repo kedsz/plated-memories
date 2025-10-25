@@ -1,42 +1,11 @@
 import { loadComponents } from './main.js'
-// import { setupNavbar } from './main.js'
 import { createRecipeCard } from './main.js'
 
-// function createCategorySection(categoryKey, categoryData, container) {
-//     const section = document.createElement('section');
-//     section.id = categoryKey;
-//     section.className = "mb-16 pt-4 -mt-4";
-
-//     // Sort recipes alphabetically by name before creating the cards
-//     const sortedRecipes = [...categoryData.recipes].sort((a, b) => a.name.localeCompare(b.name));
-//     const recipeCardsHTML = sortedRecipes.map(createRecipeCard).join('');
-
-//     section.innerHTML = `
-//         <div class="relative group">
-//             <!-- Recipe Card Container -->
-//             <div id="container-${categoryKey}" class="flex overflow-x-auto pb-4 no-scrollbar snap-x snap-mandatory scroll-smooth">
-//                 ${recipeCardsHTML}
-//             </div>
-//         </div>
-//     `;
-
-//     container.appendChild(section);
-// }
-
-// function createRecipeCard(recipe) {
-//     // Note: Removed horizontal scroll-specific classes like "flex-shrink-0" and "mr-6"
-//     return `
-//                 <div class="w-full">
-//                     <a href="/recipe.html?id=${recipe.id}" class="block bg-white rounded-lg shadow-md overflow-hidden transform hover:-translate-y-1 transition-transform duration-300 h-full">
-//                         <img src="${recipe.imageUrl}" alt="${recipe.name}" class="w-full h-80 object-cover" onerror="this.onerror=null;this.src='https://placehold.co/400x300/ccc/fff?text=Image+Error';">
-//                         <div class="p-4">
-//                             <h3 class="font-semibold text-lg truncate">${recipe.name}</h3>
-//                         </div>
-//                     </a>
-//                 </div>
-//             `;
-// }
-
+/**
+ * Determines the color scheme for a page.
+ * @param {string} categoryKey - The key for the category in recipeData (e.g., 'appetizers').
+ * @returns {object} - The theme object with color codes for various elements of the page.
+ */
 export function findCategoryTheme(categoryKey) {
     const theme = {
         "headerClass": "",
@@ -85,6 +54,11 @@ export function findCategoryTheme(categoryKey) {
     return theme;
 }
 
+/**
+ * Updates the header, title and theme of the category page.
+ * @param {object} category - The category data object.
+ * @param {string} categoryKey - The key for the category in recipeData (e.g., 'appetizers').
+ */
 export function updateHeader(category, categoryKey) {
     const headerElement = document.getElementById('category-header');
     const titleElement = document.getElementById('category-title');
@@ -96,16 +70,17 @@ export function updateHeader(category, categoryKey) {
     titleElement.classList.value += theme.titleClass;
 }
 
+/**
+ * Creates and injects all recipes for a category into the DOM.
+ */
 function renderCategoryPage() {
     const gridContainer = document.getElementById('recipe-grid');
 
     // Get category from URL parameter
     const urlParams = new URLSearchParams(window.location.search);
-    // const pathParam = window.location.pathname.substring(17);
     const categoryKey = urlParams.get('category');
-    // const categoryKey = pathParam.substring(0, pathParam.indexOf('/'));
 
-    fetch('./recipes.json') //.././recipes.json
+    fetch('./recipes.json')
         .then(response => {
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
@@ -114,14 +89,12 @@ function renderCategoryPage() {
         })
         .then(data => {
             loadComponents(data, categoryKey);
-            // setupNavbar(data, categoryKey);
             if (categoryKey && data[categoryKey]) {
                 const category = data[categoryKey];
                 updateHeader(category, categoryKey);
 
                 // Sort and render recipe cards
                 const sortedRecipes = [...category.recipes].sort((a, b) => a.name.localeCompare(b.name));
-                // const recipeCardsHTML = sortedRecipes.map(createRecipeCard).join('');
                 let recipeCardsHTML = '';
                 sortedRecipes.forEach(function (recipe) {
                     recipeCardsHTML += createRecipeCard(categoryKey, recipe, "w-full");

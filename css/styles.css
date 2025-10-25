@@ -42,6 +42,25 @@ h3 {
     transition: transform 0.3s ease-in-out;
 }
 
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.animate-scroll {
+    /* Adjust the duration (40s) to make it scroll faster or slower */
+    animation: scroll 30s linear infinite;
+}
+
+.hover\:pause:hover {
+    animation-play-state: paused;
+}
+
 #recipe-instructions li {
     position: relative;
     padding-left: 2rem;

@@ -1,5 +1,4 @@
 import { loadComponents } from './main.js'
-// import { setupNavbar } from './main.js'
 import { updateHeader } from './category.js'
 import { findCategoryTheme } from './category.js'
 
@@ -19,7 +18,6 @@ function getById(categoryKey, id) {
         })
         .then(data => {
             loadComponents(data, categoryKey);
-            // setupNavbar(data, categoryKey);
             if (categoryKey && data[categoryKey]) {
                 const category = data[categoryKey];
                 updateHeader(category, categoryKey);
@@ -38,13 +36,6 @@ function getById(categoryKey, id) {
         .catch(error => {
             console.error('Error loading or parsing JSON:', error);
         });
-    // for (const categoryKey in allRecipeData) {
-    //     const category = allRecipeData[categoryKey];
-    //     const recipe = category.recipes.find(r => r.id === id);
-    //     if (recipe) {
-    //         return recipe;
-    //     }
-    // }
     return null;
 }
 
@@ -78,10 +69,7 @@ function renderRecipe(categoryKey, recipe) {
     // Generate list items for ingredients and instructions
     const ingredientsHTML = recipe.ingredients.map(ing => `<li class="border-b py-2">${ing}</li>`).join('');
     const instructionsHTML = recipe.instructions.map(step => `<li>${step}</li>`).join('');
-    let preparationHTML;
-    if (recipe.preparation) {
-        preparationHTML = recipe.preparation.map(step => `<li>${step}</li>`).join('');
-    }
+    const preparationHTML = recipe.preparation.map(step => `<li>${step}</li>`).join('');
 
     const recipeHTML = `
         <div class="bg-white rounded-lg shadow-lg overflow-hidden">                    
@@ -131,12 +119,11 @@ function renderRecipe(categoryKey, recipe) {
                         </ul>
                     </div>
                     <div class="md:col-span-2 content-stretch">
-                        ${recipe.preparation ? `
-                            <h2 id="instruction-title" class="text-3xl font-bold mb-4 ${theme.titleClass}">Preparation</h2>
-                            <ol id="recipe-instructions" class="list-none mb-8 border-b-2" style="counter-reset: step-counter;">
-                                ${preparationHTML}
-                            </ol>` : 
-                        ''}
+                        <h2 id="instruction-title" class="text-3xl font-bold mb-4 ${theme.titleClass}">Preparation</h2>
+                        <ol id="recipe-instructions" class="list-none mb-8 border-b-2" style="counter-reset: step-counter;">
+                            ${preparationHTML}
+                        </ol>
+
                         <h2 id="instruction-title" class="text-3xl font-bold mb-4 ${theme.titleClass}">Instructions</h2>
                         <ol id="recipe-instructions" class="list-none" style="counter-reset: step-counter;">
                             ${instructionsHTML}
@@ -159,7 +146,6 @@ function renderRecipe(categoryKey, recipe) {
     document.title = `${recipe.name} - Plated Memories`;
 }
 
-// --- INITIALIZATION ---
 document.addEventListener('DOMContentLoaded', () => {
     const urlParams = new URLSearchParams(window.location.search);
     const categoryKey = urlParams.get('category');

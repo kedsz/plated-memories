@@ -142,7 +142,7 @@
                     "Using a slotted spoon, transfer the cooked chicken to the prepared wire rack to drain.",
                     "Ensure the oil returns to 330°F before frying the next batch. Serve immediately."
                 ],
-                "notes": "<ul class='space-y-2 list-none'><li>For best results, cook the wingettes and drumettes in separate batches as they have different cooking times.</li><li>Once all of the chicken wings have been fried, gently brush the warm <a href='recipe.html?category=basics&id=yangnyeom_sauce' class='text-blue-600'>Yangnyeom sauce</a> onto each individual piece, coating it completely.</li>",
+                "notes": "<ul class='space-y-2 list-none'><li>For best results, cook the wingettes and drumettes in separate batches as they have different cooking times.</li><li>Once all of the chicken wings have been fried, gently brush the warm <a href='recipe.html?category=basics&id=yangnyeom_sauce' class='text-blue-600'>Yangnyeom sauce</a> onto each individual piece, coating it completely.</li></ul>",
                 "tags": [
                     "cookbook",
                     "korean",
@@ -473,7 +473,7 @@
                 "sourceText": "Dessert Person by Claire Saffitz",
                 "sourceSubtext": "Recipes and Guidance for Baking with Confidence",
                 "ingredients": [
-                    "1 recipe Flaky All-Butter Pie Dough",
+                    "1 batch <a href='recipe.html?category=basics&id=pie_dough' class='text-blue-600'>Flaky All-Butter Pie Dough</a>",
                     "7 tbsp (100g) extra-virgin olive oil, plus more for brushing",
                     "1 bunch leeks (about 8 oz / 226g)",
                     "1 tbsp grainy Dijon mustard",
@@ -487,7 +487,6 @@
                     "2 tsp nutritional yeast"
                 ],
                 "preparation": [
-                    "Prepare one recipe of Flaky All-Butter Pie Dough.",
                     "Discard dark green tops from leeks, then split lengthwise, rinse, and slice thin.",
                     "Slice or tear mushrooms into 1-inch pieces.",
                     "Smash 3 garlic cloves and finely grate the 4th."
@@ -509,6 +508,57 @@
                     "cookbook",
                     "baking",
                     "vegetarian"
+                ]
+            },
+            {
+                "id": "pork_bafat",
+                "name": "Pork Bafat",
+                "imageUrl": "./assets/mains/pork_bafat.png",
+                "description": "A traditional and spicy pork curry made with Bafat powder, whole spices, and a vinegar tang.",
+                "prepTime": "15 min",
+                "cookTime": "40 min",
+                "servings": "8",
+                "source": "family",
+                "sourceText": "Mom",
+                "ingredients": [
+                    "1.5 kg pork",
+                    "6 onions",
+                    "6 green chilis",
+                    "2 heads of garlic",
+                    "1 (2-inch) piece ginger",
+                    "2 tbsp Bafat powder, divided",
+                    "2 tbsp vinegar (or to taste)",
+                    "1 cinnamon stick",
+                    "3 bay leaves",
+                    "5-6 cloves",
+                    "1 piece tamarind",
+                    "Salt to taste",
+                    "1 tbsp soy sauce (optional)",
+                    "1 tbsp chilli garlic sauce (optional)"
+                ],
+                "preparation": [
+                    "Clean and cut the pork into desired size pieces.",
+                    "Soak the tamarind in a couple tablespoons of hot water",
+                    "For the marinade, roughly chop 2 onions and 2 green chilis. Keep 1 head of garlic whole.",
+                    "For cooking, cut up the remaining 4 big onions and 4 green chilis. Finely chop the remaining pod of garlic and the piece of ginger."
+                ],
+                "instructions": [
+                    "In a large bowl, marinate the clean pork with salt, 1 tbsp Bafat powder, 1 tbsp vinegar, the 2 chopped onions, 2 green chilis, 1 whole head of garlic, cinnamon stick, bay leaves, and cloves.",
+                    "Set aside to marinate overnight or for a minimum of 2 hours.",
+                    "Transfer the marinated pork and all the marinade ingredients to a large pot.",
+                    "Boil the pork for 20 minutes.",
+                    "Add the 4 cut big onions, the chopped pod of garlic, the ginger, and the 4 additional green chilis to the pot.",
+                    "Add the remaining 1 tablespoon of Bafat powder. Stir well.",
+                    "Add the tamarind water, plus more salt and vinegar to taste. Continue to boil and check if the meat is cooked.",
+                    "If the pork is not yet tender, boil for some more time until cooked through.",
+                    "Optionally, stir in 1 tbsp soy sauce and/or chilli garlic sauce at the end."
+                ],
+                "notes": "<ul class='space-y-2 list-none'><li>While traditionally eaten with idlis, I love having this with pav or <a href='recipe.html?category=mains&id=mexican_rice' class='text-blue-600'>mexican rice</a></li><li>Marinating the pork overnight will result in a more flavorful dish.</li></ul>",
+                "tags": [
+                    "family",
+                    "curry",
+                    "spicy",
+                    "mangalorean"
                 ]
             }
         ]
@@ -622,11 +672,13 @@
                     "2 tsp salt",
                     "2 green onions"
                 ],
+                "preparation": [
+                    "Peel and halve the papaya. Scoop out and reserve 2 tbsp of the seeds.",
+                    "Slice the papaya, avocado and onions."
+                ],
                 "instructions": [
                     "Tear lettuce into bite sized pieces.",
-                    "Peel and halve the papaya. Scoop out and reserve 2 tbsp of the seeds.",
                     "Blend the papaya seeds along with the sugar, mustard, vinegar, the whites of the green onion, salt and olive oil.",
-                    "Slice the papaya, avocado and onions.",
                     "In a large bowl, add the lettuce, papaya, avocado and onions.",
                     "Generously coat with dressing and toss."
                 ],
@@ -790,8 +842,10 @@
                     "1 cup granulated sugar",
                     "A pinch of salt"
                 ],
+                "preparation": [
+                    "Hydrate the gelatine in a small bowl with cold water"
+                ],
                 "instructions": [
-                    "Hydrate the gelatine in a small bowl with cold water",
                     "Heat the milk on the stove until it is simmering.",
                     "In a separate bowl, whisk the egg yolks, sugar and the custard powder when the milk reaches a simmer.",
                     "Temper the egg mixture by slowly adding some of the milk while whisking constantly.",
@@ -909,7 +963,7 @@
                 "id": "praline_powder",
                 "name": "Praline Powder",
                 "imageUrl": "./assets/basics/praline_powder.png",
-                "description": "The perfect choice when you want a crunchy sweet topping.",
+                "description": "The perfect choice for a crunchy sweet topping.",
                 "prepTime": "5 min",
                 "cookTime": "5 min",
                 "servings": "A small jar",
@@ -917,10 +971,13 @@
                 "sourceText": "Peter Uncle",
                 "ingredients": [
                     "3 tbsp desicated coconut",
-                    "3 tbsp chopped cashew nuts",
+                    "3 tbsp cashew nuts",
                     "3 tbsp granulated sugar",
                     "2 tsp ghee/clarified butter",
                     "A pinch of salt"
+                ],
+                "preparation": [
+                    "Give the cashew nuts a rough chop"
                 ],
                 "instructions": [
                     "In a pan, heat the ghee and add the remaining ingredients.",
@@ -1019,6 +1076,95 @@
                     "korean",
                     "spicy",
                     "sweet"
+                ]
+            },
+            {
+                "id": "rough_puff",
+                "name": "Rough Puff Pastry",
+                "imageUrl": "./assets/basics/rough_puff.png",
+                "description": "A hybrid of pie dough and traditional puff pastry that uses rapid folds to flatten slices of butter into the dough, creating a characteristic flaky, layered effect. This recipe is a 'rough' version without the fuss of a traditional lamination.",
+                "prepTime": "40 min",
+                "cookTime": "-",
+                "servings": "Makes enough pastry for two 10-inch galettes",
+                "source": "cookbook",
+                "sourceText": "Dessert Person by Claire Saffitz",
+                "sourceSubtext": "Recipes and Guidance for Baking with Confidence",
+                "ingredients": [
+                    "3 sticks (12 oz / 340g) unsalted butter, chilled and divided",
+                    "3 1/4 cups (16 oz / 453g) all-purpose flour, plus more for rolling",
+                    "1 tbsp sugar",
+                    "1 1/2 tsp (0.3 oz / 9g) Diamond Crystal kosher salt",
+                    "1/2 cup (4 oz / 113g) ice water"
+                ],
+                "preparation": [
+                    "Place 1 1/2 sticks (170g) of the butter in the freezer for 10-15 minutes, until very firm but not frozen solid.",
+                    "In a large bowl, whisk together the all-purpose flour, sugar, and salt. Place this bowl in the freezer while the butter firms up.",
+                    "Slice the remaining 1 1/2 sticks (170g) of butter into 1/2-inch-thick slices. Place them on a plate and keep refrigerated."
+                ],
+                "instructions": [
+                    "Remove the flour mixture and the firm butter from the freezer. Grate the firm butter on the large holes of a box grater directly into the flour mixture. Use a fork to toss the butter bits and coat them in flour.",
+                    "Add the refrigerated butter slices to the flour mixture and use the fork to quickly distribute them.",
+                    "Gradually drizzle 1/2 cup (113g) of the ice water into the bowl, tossing constantly with the fork until large, shaggy clumps form. If the dough seems too dry to hold together, add more ice water by the teaspoon, tossing, until it does.",
+                    "Scrape the mixture onto a large piece of plastic wrap. Knead the dough a couple of times in the wrap to bring it together, then pat it down into a 1/2-inch-thick square, pressing firmly to compact.",
+                    "Wrap the square tightly in plastic and refrigerate for at least 30 minutes.",
+                    "Let the dough sit at room temperature for 5 minutes. Unwrap onto a lightly floured surface.",
+                    "Roll the dough into a long rectangle, about three times as long as it is wide.",
+                    "Fold the dough in thirds like a letter: lift the bottom third up and over the center, then fold the top third down.",
+                    "Rotate the dough 90 degrees. Roll it out again into a long rectangle and fold in thirds as before.",
+                    "Cut the dough in half crosswise. Wrap each half tightly in plastic and refrigerate for at least 1 hour before using."
+                ],
+                "notes": "<ul class='space-y-2 list-none'><li>Do not try to use the pastry immediately after folding, as the gluten needs at least 1 hour to relax in the refrigerator.</li><li>The wrapped dough will keep for up to 2 days in the refrigerator or up to 2 months in the freezer. Thaw frozen dough overnight in the refrigerator before using.</li></ul>",
+                "tags": [
+                    "cookbook",
+                    "pastry",
+                    "baking",
+                    "butter",
+                    "dough",
+                    "laminated"
+                ]
+            },
+            {
+                "id": "pie_dough",
+                "name": "Flaky All-Butter Pie Dough",
+                "imageUrl": "./assets/basics/pie_dough.png",
+                "description": "An essential flaky, all-butter pie dough. This recipe uses a mix of sliced and smashed butter to create a flaky, layered crust.",
+                "prepTime": "30 min",
+                "cookTime": "0 min",
+                "servings": "Makes enough for one 9-inch pie crust",
+                "source": "cookbook",
+                "sourceText": "Dessert Person by Claire Saffitz",
+                "sourceSubtext": "Recipes and Guidance for Baking with Confidence",
+                "ingredients": [
+                    "1 stick plus 5 tbsp unsalted butter (6.25 oz / 177g), cold and divided",
+                    "1 2/3 cups all-purpose flour (7 oz / 200g), plus more for rolling",
+                    "1 tbsp granulated sugar (0.46 oz / 13g)",
+                    "1 1/2 tsp Diamond Crystal kosher salt",
+                    "1/2 cup (4 oz / 113g) ice water, plus more as needed"
+                ],
+                "preparation": [
+                    "Slice 1 stick (4 oz / 113g) of the butter in half and then into 1/8-inch slices. Place these slices on a plate and refrigerate.",
+                    "Cut the remaining 5 tablespoons (2.25 oz / 71g) of butter into 1/2-inch cubes."
+                ],
+                "instructions": [
+                    "In a large bowl, whisk together the all-purpose flour, sugar, and salt.",
+                    "Add the 1/2-inch butter cubes to the flour mixture and toss to coat. Quickly smash these butter pieces between your fingertips until they are no larger than a pea.",
+                    "Add the refrigerated 1/4-inch butter cubes to the flour mixture. Toss to coat, then quickly smash these pieces between your fingertips to break them apart. The final mixture should be coarse and yellowish, with varied sizes of butter bits.",
+                    "Slowly drizzle 5 tablespoons of the ice water into the flour mixture, tossing constantly with a fork to incorporate.",
+                    "Continue tossing, adding more ice water 1 teaspoon at a time as needed, until the dough forms shaggy clumps and just holds together when squeezed. Avoid adding too much water.",
+                    "Knead the dough in the bowl a few times to bring it together, then pat it into a 1-inch-thick square.",
+                    "Wrap the dough square tightly in plastic, pressing out any air. Refrigerate for at least 2 hours (or up to 3 days).",
+                    "After the long chill, let the dough sit at room temperature for 5 minutes.",
+                    "Unwrap the dough onto a lightly floured surface. Use a rolling pin to beat the dough across its surface to make it more pliable.",
+                    "Roll the dough into a rectangle about 1/4 to 1/3 inch thick and three times as long as it is wide.",
+                    "Fold the dough in thirds like a letter (bottom third up, top third down).",
+                    "Wrap the folded dough tightly in plastic and refrigerate for at least 30 minutes before rolling it out for your pie."
+                ],
+                "notes": "Baking options:<ul class='space-y-2 list-none'><li>To par-bake, line with foil and weights, bake at 425°F for 10 min. Remove weights, prick bottom, and bake 10-15 min more.</li><li>To fully bake, follow par-bake steps but bake for 20-25 min after removing weights.</li></ul>",
+                "tags": [
+                    "cookbook",
+                    "pastry",
+                    "pie dough",
+                    "baking"
                 ]
             }
         ]

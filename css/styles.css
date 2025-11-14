@@ -14,7 +14,6 @@ html {
     /* Firefox */
 }
 
-/* Custom font */
 body {
     font-family: 'Inter', sans-serif;
     padding-top: 68px;
@@ -84,4 +83,26 @@ h3 {
     width: 1.5rem;
     height: 1.5rem;
     font-size: 0.875rem;
+}
+
+.appendix-columns {
+    column-count: 2;
+    column-gap: 2.5rem;
+}
+
+@media (min-width: 768px) {
+    .appendix-columns {
+        column-count: 2;
+    }
+}
+
+@media (min-width: 1024px) {
+    .appendix-columns {
+        column-count: 3;
+    }
+}
+
+.tag-heading {
+    scroll-margin-top: 5rem;
+    break-inside: avoid-column;
 }

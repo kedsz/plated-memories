@@ -10,7 +10,7 @@
                 "prepTime": "15 min",
                 "cookTime": "15 min",
                 "servings": "4",
-                "source": "cookbook",
+                "source": "Cookbook",
                 "sourceText": "Umma by Sarah Ahn",
                 "sourceSubtext": "A Korean Mom's Kitchen Wisdom and 100 Family Recipes",
                 "ingredients": [
@@ -47,10 +47,11 @@
                 ],
                 "notes": "Substitute an equal weight of regular green onions for the daepa.",
                 "tags": [
-                    "cookbook",
+                    "Cookbook",
                     "korean",
                     "street food",
                     "spicy",
+                    "fish cakes",
                     "rice cakes"
                 ]
             },
@@ -62,7 +63,7 @@
                 "prepTime": "20 min",
                 "cookTime": "0 min",
                 "servings": "~8 cups",
-                "source": "cookbook",
+                "source": "Cookbook",
                 "sourceText": "Umma by Sarah Ahn",
                 "sourceSubtext": "A Korean Mom's Kitchen Wisdom and 100 Family Recipes",
                 "ingredients": [
@@ -93,7 +94,7 @@
                 ],
                 "notes": "Look for smaller pickling cucumbers like Kirby cucumbers (2 to 3 ounces each) as they contain fewer seeds. Korean cucumbers also work well, but Persian cucumbers are not recommended for this recipe.",
                 "tags": [
-                    "cookbook",
+                    "Cookbook",
                     "banchan",
                     "korean",
                     "fermented",
@@ -108,14 +109,14 @@
                 "prepTime": "25 min",
                 "cookTime": "45 min",
                 "servings": "4-6",
-                "source": "cookbook",
+                "source": "Cookbook",
                 "sourceText": "Umma by Sarah Ahn",
                 "sourceSubtext": "A Korean Mom's Kitchen Wisdom and 100 Family Recipes",
                 "ingredients": [
                     "3 lbs (1.4 kg) chicken wings",
                     "2 1/2 cups milk",
                     "2 tsp black pepper, divided",
-                    "1 tsp miwon matsogeum (MSG seasoning salt)",
+                    "1 tsp ajinomoto/miwon matsogeum (MSG seasoning salt)",
                     "3 1/2 cups (420g) Korean frying mix, divided",
                     "1 tbsp (10g) curry powder, divided",
                     "1 tbsp Dasida beef stock powder",
@@ -142,12 +143,195 @@
                     "Using a slotted spoon, transfer the cooked chicken to the prepared wire rack to drain.",
                     "Ensure the oil returns to 330°F before frying the next batch. Serve immediately."
                 ],
-                "notes": "<ul class='space-y-2 list-none'><li>For best results, cook the wingettes and drumettes in separate batches as they have different cooking times.</li><li>Once all of the chicken wings have been fried, gently brush the warm <a href='recipe.html?category=basics&id=yangnyeom_sauce' class='text-blue-600'>Yangnyeom sauce</a> onto each individual piece, coating it completely.</li></ul>",
+                "notes": "<ul class='space-y-2 list-none'><li>For best results, cook the wingettes and drumettes in separate batches as they have different cooking times.</li><li>Once all of the chicken wings have been fried, gently brush the warm <a href='recipe.html?category=basics&id=yangnyeom_sauce' class='text-blue-600 hover:underline'>Yangnyeom sauce</a> onto each individual piece, coating it completely.</li></ul>",
                 "tags": [
-                    "cookbook",
+                    "Cookbook",
+                    "chicken",
                     "korean",
                     "fried",
                     "crispy"
+                ]
+            },
+            {
+                "id": "salsa",
+                "name": "Salsa",
+                "imageUrl": "./assets/appetizers/salsa.png",
+                "description": "A quick and easy salsa, balanced with fresh aromatics and a tangy finish.",
+                "prepTime": "10 min",
+                "cookTime": "-",
+                "servings": "~2 cups",
+                "source": "family",
+                "sourceText": "Keith",
+                "ingredients": [
+                    "2 medium tomatoes",
+                    "3 cloves garlic",
+                    "1 onion",
+                    "1 bunch cilantro",
+                    "1 green chilli",
+                    "1 tsp garlic powder",
+                    "1 tsp onion powder",
+                    "1.5 tsp salt",
+                    "0.5 tsp pepper",
+                    "2 tsp vinegar",
+                    "5-6 tbsp ketchup",
+                    "1 tbsp lemon juice (to taste)"
+                ],
+                "preparation": [
+                    "Roughly chop the onion and garlic.",
+                    "Wash and chop the tomatoes, cilantro and green chilli."
+                ],
+                "instructions": [
+                    "Combine all ingredients in a bowl.",
+                    "Check for seasoning and adjust salt, ketchup, or lemon juice if needed."
+                ],
+                "tags": [
+                    "family",
+                    "condiment",
+                    "vegetarian",
+                    "dip",
+                    "no-cook"
+                ]
+            },
+            {
+                "id": "bacon_guac_bites",
+                "name": "Bacon Guacamole Bites",
+                "imageUrl": "./assets/appetizers/bacon_guac_bites.png",
+                "description": "Creamy guacamole and cream cheese bites rolled in crispy bacon.",
+                "prepTime": "45 min",
+                "cookTime": "-",
+                "servings": "12-15",
+                "source": "family",
+                "sourceText": "Kavi",
+                "ingredients": [
+                    "12 slices bacon",
+                    "2 avocados",
+                    "6 oz cream cheese",
+                    "1 lime",
+                    "1 clove garlic",
+                    "1/4 red onion",
+                    "1 small jalapeño",
+                    "1 bunch coriander/cilantro",
+                    "1/2 tsp cumin",
+                    "1/2 tsp chili powder",
+                    "Salt, to taste",
+                    "Freshly ground black pepper, to taste"
+                ],
+                "preparation": [
+                    "Cook the 12 slices of bacon until crispy, then set aside to cool. Once cooled, crumble the bacon and spread it on a large plate.",
+                    "Pit, peel, and mash the 2 avocados in a large bowl.",
+                    "Soften the cream cheese to room temperature.",
+                    "Juice the lime.",
+                    "Mince the garlic clove.",
+                    "Finely mince the red onion.",
+                    "Chop the small jalapeno. For less heat, seed the jalapeno before chopping.",
+                    "Chop the coriander."
+                ],
+                "instructions": [
+                    "To the bowl with the mashed avocados, add the softened cream cheese, lime juice, minced garlic, minced red onion, chopped jalapeno, cilantro, cumin, and chili powder.",
+                    "Stir all the ingredients together until mostly smooth (some chunks are OK).",
+                    "Season the guacamole mixture with Kosher salt and freshly ground black pepper to your taste.",
+                    "Place the bowl in the refrigerator to firm up slightly, about 30 minutes.",
+                    "Using a small cookie scoop, scoop balls of the chilled guacamole mixture and place them on the plate with the crumbled bacon.",
+                    "Gently roll each guacamole ball in the bacon crumbles to coat them completely.",
+                    "Repeat this process until all the guacamole mixture is used.",
+                    "Store the finished bites in the refrigerator until ready to serve."
+                ],
+                "notes": "Ensure the bacon is cooked very crispy so it crumbles easily and provides a good texture contrast. Chilling the guacamole is a key step to make it firm enough to scoop.",
+                "tags": [
+                    "family",
+                    "bacon",
+                    "pork",
+                    "avocado",
+                    "low-carb"
+                ]
+            },
+            {
+                "id": "prawn_pakoda",
+                "name": "Prawn Pakoda",
+                "imageUrl": "./assets/appetizers/prawn_pakoda.png",
+                "description": "Crispy, deep-fried pakodas made with prawns, marinated overnight with spring onions and spices, and fried in a light batter.",
+                "prepTime": "20 min",
+                "cookTime": "15 min",
+                "servings": "4-6",
+                "source": "family",
+                "sourceText": "Emma Aunty",
+                "ingredients": [
+                    "500g prawns",
+                    "1/2 cup spring onions",
+                    "2 tbsp soy sauce",
+                    "1/2 tsp turmeric powder",
+                    "1 tsp black pepper",
+                    "Salt to taste",
+                    "1 cup self-raising flour",
+                    "1/2 cup water (approx.)",
+                    "Vegetable oil, for deep frying"
+                ],
+                "preparation": [
+                    "Clean and cut the prawns into tiny pieces.",
+                    "Finely chop the spring onions.",
+                    "In a mixing bowl, combine the prawns, chopped spring onions, soy sauce, turmeric powder, salt, and pepper. Mix well.",
+                    "Cover the bowl and marinate in the fridge overnight, or for at least 2 hours.",
+                    "About 40 minutes before you plan to fry, prepare the batter: In a separate bowl, add the self-raising flour and just enough water to form a thick batter. Let it rest for 40 minutes."
+                ],
+                "instructions": [
+                    "When ready to fry, add the marinated prawn mixture to the rested flour batter. Mix everything together thoroughly.",
+                    "Adjust the seasoning with salt and pepper if needed.",
+                    "In a heavy-bottomed pot, heat the vegetable oil over medium-high heat.",
+                    "Using a tablespoon, carefully drop spoonfuls of the batter mixture into the hot oil. Do not overcrowd the pan; fry in batches.",
+                    "Fry the pakodas, turning occasionally, until they are deep golden brown, crispy, and the prawns inside are cooked through (about 4-5 minutes per batch).",
+                    "Use a slotted spoon to remove the pakodas from the oil and drain them on a paper towel."
+                ],
+                "notes": "<ul class='space-y-2 list-none'><li>Enjoy these pakodas with green chutney if desired.</li><li>Substitute the prawns with an equal amount of chicken for a chicken pakoda</li></ul>",
+                "tags": [
+                    "family",
+                    "fried",
+                    "chicken",
+                    "prawns"
+                ]
+            },
+            {
+                "id": "chicken_lollipop",
+                "name": "Chicken Lollipop",
+                "imageUrl": "./assets/appetizers/chicken_lollipop.png",
+                "description": "Crispy fried chicken lollipops, marinated in a ginger-garlic paste and then coated in a thick, flavorful batter with minced aromatics and spices.",
+                "prepTime": "45 min",
+                "cookTime": "20 min",
+                "servings": "30 pieces",
+                "source": "family",
+                "sourceText": "Mom",
+                "ingredients": [
+                    "30 chicken lollipops",
+                    "4 tbsp ginger-garlic paste",
+                    "1 large onion (for paste)",
+                    "Salt to taste",
+                    "2 medium onions (for batter)",
+                    "6-10 green chilies",
+                    "1/4 cup fresh coriander leaves",
+                    "5 tbsp corn flour",
+                    "3 tbsp flour",
+                    "3 eggs",
+                    "1 tsp ajinomoto/miwon matsogeum (MSG) (optional)",
+                    "Oil for deep frying"
+                ],
+                "preparation": [
+                    "Make a smooth paste from the 1 large onion.",
+                    "In a large bowl, marinate the chicken lollipops with the ginger-garlic paste, onion paste, and salt. Set aside for at least 30 minutes.",
+                    "While the chicken is marinating, finely mince the 2 medium onions and the green chilies. Finely chop the coriander leaves."
+                ],
+                "instructions": [
+                    "In a separate large mixing bowl, prepare the batter by combining the minced onions, minced green chilies, and chopped coriander.",
+                    "Add the ajinomoto (if using), 5 tbsp corn flour, and 3 tbsp maida to the minced ingredients.",
+                    "Beat the 3 eggs and add them to the flour mixture. Mix well to form a thick, combined batter.",
+                    "Add the marinated chicken lollipops to this batter and toss until each lollipop is fully coated.",
+                    "In a large, heavy-bottomed pot, heat the oil over medium-high heat.",
+                    "Carefully place the battered lollipops into the hot oil, frying in batches to avoid overcrowding.",
+                    "Fry until golden brown, crispy, and the chicken is cooked through.",
+                    "Remove with a slotted spoon, drain on a wire rack or paper towels, and eat."
+                ],
+                "tags": [
+                    "chicken",
+                    "fried",
+                    "indo-chinese"
                 ]
             }
         ]
@@ -190,8 +374,8 @@
                 ],
                 "tags": [
                     "family",
-                    "rice",
-                    "green"
+                    "vegeterian",
+                    "rice"
                 ]
             },
             {
@@ -238,6 +422,7 @@
                 ],
                 "tags": [
                     "family",
+                    "pork",
                     "chinese"
                 ]
             },
@@ -250,7 +435,7 @@
                 "cookTime": "1 hour",
                 "servings": "10",
                 "source": "family",
-                "sourceText": "Emma aunty",
+                "sourceText": "Emma Aunty",
                 "ingredients": [
                     "1/2 kg mutton",
                     "1/2 kg onions",
@@ -287,6 +472,8 @@
                 "notes": "While grinding the dry spice mix, add a few garlic cloves and a knob of ginger for a flavorful paste.",
                 "tags": [
                     "family",
+                    "mutton",
+                    "spicy",
                     "indian"
                 ]
             },
@@ -298,7 +485,7 @@
                 "prepTime": "50 min",
                 "cookTime": "150 min",
                 "servings": "4-6",
-                "source": "cookbook",
+                "source": "Cookbook",
                 "sourceText": "Umma by Sarah Ahn",
                 "sourceSubtext": "A Korean Mom's Kitchen Wisdom and 100 Family Recipes",
                 "ingredients": [
@@ -345,7 +532,7 @@
                 ],
                 "notes": "The best ribs for this recipe are 5 to 7 inches long with 1/2 to 1 inch of meat. Back ribs are tasty and more affordable than short ribs. Soaking the meat in water for 30 minutes helps to rid the meat of myoglobin. Skimming the edges of the carrots and Korean radish is a common practice in Korean cooking to create a smooth surface and nicer appearance.",
                 "tags": [
-                    "cookbook",
+                    "Cookbook",
                     "korean",
                     "beef",
                     "braised",
@@ -361,7 +548,7 @@
                 "prepTime": "20 min",
                 "cookTime": "40 min",
                 "servings": "4-6",
-                "source": "cookbook",
+                "source": "Cookbook",
                 "sourceText": "Umma by Sarah Ahn",
                 "sourceSubtext": "A Korean Mom's Kitchen Wisdom and 100 Family Recipes",
                 "ingredients": [
@@ -400,7 +587,7 @@
                 ],
                 "notes": "This recipe uses freshly made, slightly moist rice rather than day-old rice.",
                 "tags": [
-                    "cookbook",
+                    "Cookbook",
                     "korean",
                     "kimchi",
                     "pork",
@@ -415,7 +602,7 @@
                 "prepTime": "45 min",
                 "cookTime": "60 min",
                 "servings": "4-6",
-                "source": "cookbook",
+                "source": "Cookbook",
                 "sourceText": "Umma by Sarah Ahn",
                 "sourceSubtext": "A Korean Mom's Kitchen Wisdom and 100 Family Recipes",
                 "ingredients": [
@@ -455,7 +642,7 @@
                 ],
                 "notes": "The best ribs for this are about 8 inches long with significant marbling. For an enhanced serving option, pan-fry sliced yellow onion in some of the marinade and serve the cooked galbi on top.",
                 "tags": [
-                    "cookbook",
+                    "Cookbook",
                     "korean",
                     "bbq",
                     "beef"
@@ -469,11 +656,11 @@
                 "prepTime": "60 min",
                 "cookTime": "45 min",
                 "servings": "4-6",
-                "source": "cookbook",
+                "source": "Cookbook",
                 "sourceText": "Dessert Person by Claire Saffitz",
                 "sourceSubtext": "Recipes and Guidance for Baking with Confidence",
                 "ingredients": [
-                    "1 batch <a href='recipe.html?category=basics&id=pie_dough' class='text-blue-600'>Flaky All-Butter Pie Dough</a>",
+                    "1 batch <a href='recipe.html?category=basics&id=pie_dough' class='text-blue-600 hover:underline'>Flaky All-Butter Pie Dough</a>",
                     "7 tbsp (100g) extra-virgin olive oil, plus more for brushing",
                     "1 bunch leeks (about 8 oz / 226g)",
                     "1 tbsp grainy Dijon mustard",
@@ -505,7 +692,7 @@
                 ],
                 "notes": "To ensure the mushrooms brown properly, wait to salt them until they have already developed some color in the pan.",
                 "tags": [
-                    "cookbook",
+                    "Cookbook",
                     "baking",
                     "vegetarian"
                 ]
@@ -553,12 +740,216 @@
                     "If the pork is not yet tender, boil for some more time until cooked through.",
                     "Optionally, stir in 1 tbsp soy sauce and/or chilli garlic sauce at the end."
                 ],
-                "notes": "<ul class='space-y-2 list-none'><li>While traditionally eaten with idlis, I love having this with pav or <a href='recipe.html?category=mains&id=mexican_rice' class='text-blue-600'>mexican rice</a></li><li>Marinating the pork overnight will result in a more flavorful dish.</li></ul>",
+                "notes": "<ul class='space-y-2 list-none'><li>While traditionally eaten with idlis, I love having this with pav or <a href='recipe.html?category=mains&id=mexican_rice' class='text-blue-600 hover:underline'>mexican rice</a></li><li>Marinating the pork overnight will result in a more flavorful dish.</li></ul>",
                 "tags": [
                     "family",
                     "curry",
+                    "pork",
                     "spicy",
                     "mangalorean"
+                ]
+            },
+            {
+                "id": "roce_chicken",
+                "name": "Roce Chicken",
+                "imageUrl": "./assets/mains/roce_chicken.png",
+                "description": "A traditional Mangalorean chicken curry made with a rich, roasted coconut and spice masala, finished with thick and thin coconut milk.",
+                "prepTime": "30 min",
+                "cookTime": "45 min",
+                "servings": "6-8",
+                "source": "family",
+                "sourceText": "Mom",
+                "ingredients": [
+                    "1 kg chicken",
+                    "1 tsp turmeric powder",
+                    "1 tbsp vinegar",
+                    "1 cup fresh grated coconut",
+                    "4 onions",
+                    "4 cloves garlic",
+                    "5-6 dried red chillies",
+                    "1-inch piece cinnamon",
+                    "3-4 cloves",
+                    "1/4 tsp fenugreek/methi seeds",
+                    "1 tbsp coriander seeds",
+                    "1 tsp cumin seeds",
+                    "1 tsp fennel seeds",
+                    "1 tsp peppercorns",
+                    "1 lemon sized ball of tamarind",
+                    "3 cups coconut milk",
+                    "2 tbsp ghee",
+                    "2 tbsp oil",
+                    "1 tbsp Ghee",
+                    "1 sprig curry leaves",
+                    "1 Maggi chicken cube (optional)",
+                    "Salt to taste"
+                ],
+                "preparation": [
+                    "Clean and cut the chicken to desired size pieces.",
+                    "In a small bowl, soak the tamarind with a couple tbsps of hot water.",
+                    "Slice the onions.",
+                    "In a large bowl, marinate the cleaned chicken with turmeric powder, salt, and vinegar. Set aside for at least 30 minutes."
+                ],
+                "instructions": [
+                    "In a pan, heat a little oil and fry the red chillies, grated coconut, 2 sliced onions, and garlic until aromatic and lightly browned. Remove and set aside.",
+                    "In the same pan, dry roast the remaining spices: cinnamon, cloves, fenugreek seeds, coriander seeds, cumin seeds, fennel seeds, and peppercorns, until fragrant.",
+                    "Combine the fried coconut-onion mixture, the roasted dry spices, and the tamarind in a grinder. Add the 2 cups of thin coconut milk and grind to a very smooth paste.",
+                    "In a large pot, heat the 2 tbsp ghee and 1 tbsp oil over medium heat.",
+                    "Add the 1 large sliced onion and fry until translucent.",
+                    "Add the marinated chicken and fry for 5-7 minutes, until it releases water and is lightly seared.",
+                    "Pour in the ground masala paste. Stir well to combine with the chicken.",
+                    "Bring to a boil, then reduce the heat, cover, and let it simmer for 20 minutes, or until the chicken is tender and cooked through.",
+                    "Stir in the 1 cup of thick coconut milk. Add the optional Maggi cube, crumbling it in. Heat gently for another 2-3 minutes, but do not let it come to a rolling boil.",
+                    "Check for salt and adjust if necessary.",
+                    "For the tempering: In a small, separate pan, heat the 1 tbsp of ghee.",
+                    "Add the 1 medium sliced onion and the curry leaves. Fry until the onions are crisp and dark brown.",
+                    "Pour the hot tempering over the finished chicken curry and serve."
+                ],
+                "notes": "Be careful not to boil the curry after adding the thick coconut milk, as it can curdle.",
+                "tags": [
+                    "family",
+                    "curry",
+                    "chicken",
+                    "mangalorean",
+                    "coconut",
+                    "indian"
+                ]
+            },
+            {
+                "id": "taliwang_grilled_chicken",
+                "name": "Taliwang Grilled Chicken",
+                "imageUrl": "./assets/mains/taliwang_grilled_chicken.png",
+                "description": "Ayam Taliwang is a spicy Indonesian grilled chicken marinated and basted in a rich, complex spice blend and coconut milk sauce.",
+                "prepTime": "15 min",
+                "cookTime": "30 min",
+                "servings": "5-6",
+                "source": "family",
+                "sourceText": "Steffi",
+                "ingredients": [
+                    "1.2 kg whole chicken",
+                    "40 g coconut milk (for marinade)",
+                    "2 kaffir lime",
+                    "1.5 tsp salt (for marinade)",
+                    "1/2 tsp pepper",
+                    "5 clove garlic",
+                    "8 shallot",
+                    "4 red chili",
+                    "15 red bird's eye chili",
+                    "1 stalk lemongrass",
+                    "15 g dried chili",
+                    "5 cm ginger",
+                    "1 tomato",
+                    "Oil, for blending and sautéing",
+                    "50 ml coconut milk (for sauce)",
+                    "250 ml water",
+                    "1 tsp salt (for sauce)",
+                    "1 tsp sugar (for sauce)"
+                ],
+                "preparation": [
+                    "Soak the dried chili in some warm water.",
+                    "Butterfly the whole chicken and press it in the middle to flatten.",
+                    "In a large dish, marinate the chicken on both sides with 1.5 tsp salt, pepper, kaffir lime, and 40g coconut milk, spreading it evenly.",
+                    "Cover with plastic wrap and marinate for at least 1 hour at room temperature or overnight in the fridge.",
+                    "Create the blended spice pasteby blending the garlic, 8 shallots, 4 red chili, 15 bird's eye chili, soaked dried chili, 1 sliced tomato, and lemongrass with a bit of oil until smooth."
+                ],
+                "instructions": [
+                    "Sauté the blended spice paste in a pan until fragrant and the oil seeps out.",
+                    "Add the 50ml coconut milk, 250ml water, 1 tsp salt, 1 tsp sugar. Cook and stir to combine. This is the main sauce.",
+                    "Set aside a small bowl of this sauce to use as a basting and dipping sauce for grilling.",
+                    "Heat a grill pan on high heat. Add the marinated chicken and grill until half-cooked.",
+                    "Dip the half-cooked chicken into the reserved basting sauce, then return it to the grill.",
+                    "Repeat this dipping and grilling process (so the chicken is dipped twice) until the chicken is fully cooked and charred."
+                ],
+                "notes": "The recipe involves 'dipping twice' during the grilling process, which builds a flavorful, caramelized crust on the chicken.",
+                "tags": [
+                    "family",
+                    "indonesian",
+                    "chicken",
+                    "grilled",
+                    "spicy"
+                ]
+            },
+            {
+                "id": "sweet_potato_gnocchi",
+                "name": "Sweet Potato Gnocchi",
+                "imageUrl": "./assets/mains/sweet_potato_gnocchi.png",
+                "description": "A minimal ingredient dish that's sure to impress.",
+                "prepTime": "60 min",
+                "cookTime": "20 min",
+                "servings": "5-6",
+                "source": "family",
+                "sourceText": "Neil",
+                "sourceLink": "https://veroshsview.wordpress.com/2018/02/20/sweet-potato-gnocchi/",
+                "ingredients": [
+                    "2 large sweet potatoes",
+                    "2 cups flour",
+                    "2 tsp salt",
+                    "2 tsp garlic powder",
+                    "2 sprigs sage",
+                    "3 tbsp butter"
+                ],
+                "preparation": [
+                    "Preheat the oven to 400°F.",
+                    "Poke a few holes in the sweet potatoes and then bake them for around 40 minutes till you can easily poke a fork right to the center."
+                ],
+                "instructions": [
+                    "Once the sweet potatoes are cool enough to handle, peel and mash them.",
+                    "Add the garlic powder and any other spices you want to the mashed potatoes.",
+                    "On a clean work surface, mix the salt and flour. Spread it and create a well.",
+                    "Add the mashed potatoes to the well.",
+                    "With floured hands, begin working the sweet potato into the flour. Continue till they are well combined and your dough is dry rather than sticky. Keep adding flour to achieve the just dry dough but not too dry either.",
+                    "Roll the dough into a ball and cut into 4-8 equally manageable parts.",
+                    "Roll each section out into a rope about 1 inch thick. Cut each rope into 1/2 inch pieces. The pieces can be grooved using the back of a fork.",
+                    "In a large pot, bring water to boil and salt generously.",
+                    "Add the gnocchi to the boiling water and let it cook till they float to the top.",
+                    "Toss the gnocchi in the butter sage sauce or any other sauce of your choice."
+                ],
+                "notes": "If not cooking immediately, the gnocchi can be frozen for a couple days.",
+                "tags": [
+                    "family",
+                    "italian",
+                    "vegeterian"
+                ]
+            },
+            {
+                "id": "sweet_potato_chili",
+                "name": "Sweet Potato Chili",
+                "imageUrl": "./assets/mains/sweet_potato_chili.png",
+                "description": "A flavorful chili that's more or less 'pour things into a pot and simmer'.",
+                "prepTime": "15 min",
+                "cookTime": "60 min",
+                "servings": "2-3",
+                "source": "family",
+                "sourceText": "Neil",
+                "sourceLink": "https://veroshsview.wordpress.com/2018/02/19/spicy-sweet-potato-chili/",
+                "ingredients": [
+                    "2-3 medium sweet potatoes",
+                    "1 large onion",
+                    "5 cloves garlic",
+                    "1.5 tbsp chili powder",
+                    "1 tbsp coriander powder",
+                    "1 tin tomatoes",
+                    "1 tin black beans",
+                    "1 habanero pepper",
+                    "2 tbsp salt (plus extra to taste)",
+                    "Dried herbs of choice"
+                ],
+                "preparation": [
+                    "Peel and chop the sweet potatoes, onion and garlic."
+                ],
+                "instructions": [
+                    "Heat the oil in a large pot/pan over medium heat and add the onion once hot.",
+                    "When the onions have begun to brown, add the garlic followed by the chili and coriander powders.",
+                    "Stir and cook for the minute.",
+                    "Add the tomatoes and beans (with their juices), the pepper and dried herbs.",
+                    "Add 3.5 cups of water and bring to a boil then simmer for around 30-40 minutes.",
+                    "Add the the sweet potatoes and simmer for around 30 minutes till all the ingredients are cooked tender and have absorbed sufficient flavor.",
+                    "Add spices as per taste and more water if the chili is too thick."
+                ],
+                "notes": "Add toppings of your choice like sour cream, coriander/cilantro, etc.",
+                "tags": [
+                    "family",
+                    "spanish",
+                    "vegeterian"
                 ]
             }
         ]
@@ -601,7 +992,8 @@
                 "tags": [
                     "family",
                     "salad",
-                    "curd"
+                    "vegetarian",
+                    "yogurt"
                 ]
             },
             {
@@ -646,7 +1038,7 @@
                     "family",
                     "salad",
                     "yogurt",
-                    "curd",
+                    "vegetarian",
                     "fried"
                 ]
             },
@@ -686,6 +1078,7 @@
                 "tags": [
                     "family",
                     "salad",
+                    "vegetarian",
                     "fruit"
                 ]
             },
@@ -697,7 +1090,7 @@
                 "prepTime": "25 min",
                 "cookTime": "5 min",
                 "servings": "Makes 9 cups",
-                "source": "cookbook",
+                "source": "Cookbook",
                 "sourceText": "Umma by Sarah Ahn",
                 "sourceSubtext": "A Korean Mom's Kitchen Wisdom and 100 Family Recipes",
                 "ingredients": [
@@ -724,8 +1117,9 @@
                 ],
                 "notes": "Use young green Korean chiles for this recipe as they have a mild heat and retain their crunch. Don't trim the chile stems too close to the end, or the seeds will be exposed. The pickles are ready to eat when they have turned a brownish green color.",
                 "tags": [
-                    "cookbook",
+                    "Cookbook",
                     "korean",
+                    "vegetarian",
                     "banchan",
                     "preserved"
                 ]
@@ -738,11 +1132,11 @@
                 "prepTime": "15 min",
                 "cookTime": "-",
                 "servings": "4-6",
-                "source": "cookbook",
+                "source": "Cookbook",
                 "sourceText": "Umma by Sarah Ahn",
                 "sourceSubtext": "A Korean Mom's Kitchen Wisdom and 100 Family Recipes",
                 "ingredients": [
-                    "8 oz (227g) <a href='recipe.html?category=sides&id=chile_pickle' class='text-blue-600'>Gochu Jangajji</a>",
+                    "8 oz (227g) <a href='recipe.html?category=sides&id=chile_pickle' class='text-blue-600 hover:underline'>Gochu Jangajji</a>",
                     "3 tbsp gochugaru",
                     "1 tbsp sesame seeds",
                     "3 1/2 tbsp fish sauce",
@@ -766,8 +1160,9 @@
                 ],
                 "notes": "When removing the pickles from their original container, allow them to drain thoroughly so the final dish isn't watery. The entire pickle, including the stem, is edible.",
                 "tags": [
-                    "cookbook",
+                    "Cookbook",
                     "korean",
+                    "vegetarian",
                     "banchan",
                     "spicy",
                     "no-cook"
@@ -781,7 +1176,7 @@
                 "prepTime": "15 min",
                 "cookTime": "35 min",
                 "servings": "4",
-                "source": "cookbook",
+                "source": "Cookbook",
                 "sourceText": "Umma by Sarah Ahn",
                 "sourceSubtext": "A Korean Mom's Kitchen Wisdom and 100 Family Recipes",
                 "ingredients": [
@@ -813,8 +1208,9 @@
                 ],
                 "notes": "Use baby potatoes that are about 3/4 to 1 inch in diameter. If you can only find larger baby potatoes, cut them into 1-inch pieces before boiling.",
                 "tags": [
-                    "cookbook",
+                    "Cookbook",
                     "korean",
+                    "vegetarian",
                     "banchan"
                 ]
             }
@@ -853,14 +1249,13 @@
                     "Whisk constantly until the mixture thickens and holds the marks of the whisk.",
                     "Add the vanilla essence and hydrated gelatin to the custard and mix well.",
                     "Pour the mixture into a large shallow dish and let it set in the fridge.",
-                    "When partially set, sprinkle with the prepared <a href='recipe.html?category=basics&id=praline_powder' class='text-blue-600'>praline powder</a>."
+                    "When partially set, sprinkle with the prepared <a href='recipe.html?category=basics&id=praline_powder' class='text-blue-600 hover:underline'>praline powder</a>."
                 ],
                 "notes": "Substitue custard powder with an equal amount of corn starch.",
                 "tags": [
                     "family",
                     "custard",
-                    "vanilla",
-                    "milk"
+                    "vanilla"
                 ]
             },
             {
@@ -914,7 +1309,7 @@
                 "prepTime": "60 min",
                 "cookTime": "20 min",
                 "servings": "12",
-                "source": "youtube",
+                "source": "YouTube",
                 "sourceText": "Cupcake Jemma",
                 "sourceLink": "https://youtu.be/TxjzXRDPj2E?si=m6KoZSLzysRSnQXg",
                 "ingredients": [
@@ -946,18 +1341,190 @@
                 ],
                 "notes": "Freezing the filling and the cookie balls is a crucial step to ensure the cookies don't spread too much and the filling stays inside.",
                 "tags": [
-                    "youtube",
+                    "YouTube",
                     "cookies",
-                    "dessert",
                     "baking",
-                    "chocolate",
-                    "stuffed"
+                    "chocolate"
+                ]
+            },
+            {
+                "id": "butter_mochi",
+                "name": "Butter Mochi",
+                "imageUrl": "./assets/desserts/butter_mochi.png",
+                "description": "A chewy and crisp butter mochi cake with a rich coconut flavor. This batter creates a pancake-like consistency for a perfect texture.",
+                "prepTime": "30 min",
+                "cookTime": "1 hour",
+                "servings": "~24 muffins",
+                "source": "Blog",
+                "sourceText": "Pups with Chopsticks",
+                "sourceLink": "https://pupswithchopsticks.com/hawaiian-butter-mochi/",
+                "ingredients": [
+                    "1 stick (1/2 cup) unsalted butter, melted",
+                    "1 1/2 cups coconut cream",
+                    "1 can (300ml) sweetened condensed milk",
+                    "2 tbsp vanilla extract",
+                    "3 eggs, room temperature",
+                    "1 cup milk",
+                    "1 lb mochiko flour (glutinous rice flour)",
+                    "3 tbsp sugar",
+                    "1 tbsp baking powder",
+                    "Cornmeal, coarse semolina, or flour (optional, for dusting)"
+                ],
+                "preparation": [
+                    "Set the oven to 350°F (176°C).",
+                    "Melt 1 stick of unsalted butter in the microwave in 15-second increments until fully melted.",
+                    "Liberally butter a muffin tin.",
+                    "Optionally, lightly dust the buttered muffin tin with cornmeal, coarse semolina, or flour and shake out the excess. This helps the cakes pop out easily and makes the bottoms crispier."
+                ],
+                "instructions": [
+                    "In a large mixing bowl, add the melted butter, coconut cream, sweetened condensed milk, and vanilla extract. Mix together.",
+                    "Add the 3 eggs, one at a time, whisking to incorporate each one before adding the next.",
+                    "Add the baking powder, sugar, and mochiko flour to the bowl.",
+                    "Slowly pour in the 1 cup of milk while mixing. Continue to mix until the batter is smooth and achieves a pancake batter consistency.",
+                    "Let the batter rest at room temperature for 15 to 20 minutes. This gives the cake a chewier and crispier texture.",
+                    "Fill each muffin cup with 1/4 cup of the batter.",
+                    "Tap the muffin tray gently on the counter to remove any air bubbles.",
+                    "Bake on the middle rack for 45 minutes to 1 hour, or until golden brown.",
+                    "Check for doneness: a toothpick inserted into the middle of a mochi should come out clean. If your oven runs hot, check at the 30-minute mark.",
+                    "Let the mochi cakes cool in the tin for 5-10 minutes to allow the crispiness to form, then enjoy."
+                ],
+                "notes": "You could also bake this in a tray if you want portions with no crispy edges.",
+                "tags": [
+                    "Blog",
+                    "hawaiian",
+                    "cake",
+                    "baking",
+                    "gluten-free",
+                    "coconut"
+                ]
+            },
+            {
+                "id": "date_cake",
+                "name": "Date and Walnut Cake",
+                "imageUrl": "./assets/desserts/date_cake.png",
+                "description": "A classic, moist cake featuring soft, soaked dates and crunchy chopped walnuts, baked into a rich, buttery batter.",
+                "prepTime": "30 min",
+                "cookTime": "45 min",
+                "servings": "6-8",
+                "source": "family",
+                "sourceText": "Rosy Aunty",
+                "ingredients": [
+                    "450g dates",
+                    "115g walnuts",
+                    "225g flour",
+                    "1 1/2 tsp baking powder",
+                    "170g butter, softened",
+                    "225g sugar",
+                    "4 eggs",
+                    "2 tsp vanilla essence",
+                    "1 tsp baking soda (soda bicarbonate)",
+                    "Warm water (for soaking)"
+                ],
+                "preparation": [
+                    "Wash and pit the dates. Place them in a bowl with the 1 tsp baking soda and cover with warm water. Let them soak overnight.",
+                    "Coarsely chop the walnuts.",
+                    "Preheat your oven to 180°C (350°F) and generously butter a 9-inch baking pan or loaf pan."
+                ],
+                "instructions": [
+                    "In a bowl, sieve the flour and baking powder together.",
+                    "In a large bowl, beat the softened butter and sugar with an electric mixer until light and fluffy.",
+                    "Add the eggs one at a time, beating well after each addition until fully incorporated.",
+                    "Stir in the vanilla essence.",
+                    "Add the drained, soaked dates and chopped walnuts to the sieved flour mixture and toss to coat them well. This prevents them from sinking to the bottom of the cake.",
+                    "Gently fold the flour mixture into the creamed butter and egg mixture. Mix until just combined; do not overmix.",
+                    "Pour the batter into the prepared buttered pan and spread it evenly.",
+                    "Bake for 45 minutes, or until the cake is golden brown and a skewer inserted into the center comes out clean."
+                ],
+                "tags": [
+                    "family",
+                    "cake",
+                    "baking",
+                    "tea cake"
+                ]
+            },
+            {
+                "id": "no_bake_cheesecake",
+                "name": "No Bake Cheesecake",
+                "imageUrl": "./assets/desserts/no_bake_cheesecake.png",
+                "description": "An easy cheesecake that serves as a blank canvas for the topping of your choice.",
+                "prepTime": "30 min",
+                "cookTime": "-",
+                "servings": "6-8",
+                "source": "family",
+                "sourceText": "Neil",
+                "sourceLink": "https://veroshsview.wordpress.com/2014/07/30/no-bake-cheesecake/",
+                "ingredients": [
+                    "2.5 cups (250g) tea biscuits/graham crackers",
+                    "1/2 cup (100g) butter",
+                    "1 cup (200g) cream cheese",
+                    "1 tin (~400g) sweetened condensed milk",
+                    "1 tsp vanilla essence",
+                    "1 tbsp lemon juice",
+                    "1 tbsp (10g) gelatine powder",
+                    "Topping of choice",
+                    "A pinch of salt"
+                ],
+                "preparation": [
+                    "Hydrate the gelatine in a small bowl with cold water",
+                    "Crumble the biscuits into your mixing bowl.",
+                    "Lightly butter the cake pan/dish."
+                ],
+                "instructions": [
+                    "Pour the melted butter all over the crumbled mixture and the mix it well with your hands till you notice that they begin to stick together and feel somewhat firm.",
+                    "Press the mixture onto the bottom of the dish as evenly as possible.",
+                    "Whisk the cream cheese in the bowl lightly before adding the other ingredients.",
+                    "Add the sweetened condensed milk and vanilla essence and mix them well.",
+                    "Squeeze in the lemon juice",
+                    "Warm the hydrated gelatin slightly and add it to the cream cheese mixture.",
+                    "Pour the filling onto the biscuit base and place it in the fridge for at least 3 hours.",
+                    "Once set, add your topping of choice while serving."
+                ],
+                "notes": "Keep the dish closed to prevent the cheesecake for absorbing any bad tastes or odors present in the refrigerator.",
+                "tags": [
+                    "family",
+                    "cake",
+                    "no-cook"
+                ]
+            },
+            {
+                "id": "shahi_bread_pudding",
+                "name": "Shahi Bread Pudding",
+                "imageUrl": "./assets/desserts/shahi_bread_pudding.png",
+                "description": "This dessert combines the best elements of a silky caramel and a rich bread pudding.",
+                "prepTime": "30 min",
+                "cookTime": "-",
+                "servings": "6-8",
+                "source": "family",
+                "sourceText": "Emma Aunty",
+                "ingredients": [
+                    "3 packets store bought Crème Caramel",
+                    "6 slices bread",
+                    "1 cup heavy cream",
+                    "1 pinch kesar",
+                    "Sugar (as required on the pack",
+                    "Milk (as required on the pack)",
+                    "Sliced almonds, for topping"
+                ],
+                "preparation": [
+                    "Evenly spread the caramel from the pack on the base of your dish."
+                ],
+                "instructions": [
+                    "Combine the milk and custard and bring to boil.",
+                    "Cut the bread into small pieces and spread evenly over the caramel.",
+                    "Whip the cream and sugar.",
+                    "Pour the custard over the bread followed by the cream.",
+                    "Garnish with kesar and almonds or desired toppings.",
+                    "Refrigerate overnight or at least 2 hours."
+                ],
+                "tags": [
+                    "family",
+                    "custard"
                 ]
             }
         ]
     },
     "basics": {
-        "title": "Basics",
+        "title": "Basics & Condiments",
         "recipes": [
             {
                 "id": "praline_powder",
@@ -987,7 +1554,7 @@
                 ],
                 "tags": [
                     "family",
-                    "topping",
+                    "condiment",
                     "coconut",
                     "cashew"
                 ]
@@ -1047,7 +1614,7 @@
                 "prepTime": "5 min",
                 "cookTime": "5 min",
                 "servings": "~1 cup",
-                "source": "cookbook",
+                "source": "Cookbook",
                 "sourceText": "Umma by Sarah Ahn",
                 "sourceSubtext": "A Korean Mom's Kitchen Wisdom and 100 Family Recipes",
                 "ingredients": [
@@ -1072,7 +1639,8 @@
                     "Cook for about 4 minutes, or until the sauce has thickened slightly. Remove from the heat."
                 ],
                 "tags": [
-                    "cookbook",
+                    "Cookbook",
+                    "condiment",
                     "korean",
                     "spicy",
                     "sweet"
@@ -1086,7 +1654,7 @@
                 "prepTime": "40 min",
                 "cookTime": "-",
                 "servings": "Makes enough pastry for two 10-inch galettes",
-                "source": "cookbook",
+                "source": "Cookbook",
                 "sourceText": "Dessert Person by Claire Saffitz",
                 "sourceSubtext": "Recipes and Guidance for Baking with Confidence",
                 "ingredients": [
@@ -1115,7 +1683,7 @@
                 ],
                 "notes": "<ul class='space-y-2 list-none'><li>Do not try to use the pastry immediately after folding, as the gluten needs at least 1 hour to relax in the refrigerator.</li><li>The wrapped dough will keep for up to 2 days in the refrigerator or up to 2 months in the freezer. Thaw frozen dough overnight in the refrigerator before using.</li></ul>",
                 "tags": [
-                    "cookbook",
+                    "Cookbook",
                     "pastry",
                     "baking",
                     "butter",
@@ -1131,7 +1699,7 @@
                 "prepTime": "30 min",
                 "cookTime": "0 min",
                 "servings": "Makes enough for one 9-inch pie crust",
-                "source": "cookbook",
+                "source": "Cookbook",
                 "sourceText": "Dessert Person by Claire Saffitz",
                 "sourceSubtext": "Recipes and Guidance for Baking with Confidence",
                 "ingredients": [
@@ -1161,10 +1729,12 @@
                 ],
                 "notes": "Baking options:<ul class='space-y-2 list-none'><li>To par-bake, line with foil and weights, bake at 425°F for 10 min. Remove weights, prick bottom, and bake 10-15 min more.</li><li>To fully bake, follow par-bake steps but bake for 20-25 min after removing weights.</li></ul>",
                 "tags": [
-                    "cookbook",
+                    "Cookbook",
                     "pastry",
-                    "pie dough",
-                    "baking"
+                    "baking",
+                    "dough",
+                    "butter",
+                    "laminated"
                 ]
             }
         ]

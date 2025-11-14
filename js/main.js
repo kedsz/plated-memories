@@ -88,7 +88,7 @@ function createCategorySection(categoryKey, categoryData, container) {
     section.innerHTML = `
         <div class="flex justify-between items-center mb-4">
             <h2 class="text-5xl font-bold text-stone-700 logo-font">${categoryData.title}</h2>
-            <a href="category.html?category=${categoryKey}" class="text-lg font-medium text-amber-600 hover:text-amber-700 transition-colors"> <!-- ${categoryKey}/${categoryKey}.html -->
+            <a href="category.html?category=${categoryKey}" class="text-lg font-medium text-amber-600 hover:text-amber-700 transition-colors">
                 See All &rarr;
             </a>
         </div>

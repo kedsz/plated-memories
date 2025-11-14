@@ -40,6 +40,77 @@ function getById(categoryKey, id) {
 }
 
 /**
+ * Returns an SVG icon string for a given source.
+ * @param {string} source - The source name (e.g., "YouTube").
+ * @returns {string} - The icon HTML.
+ */
+function getSourceIcon(source) {
+    const icons = {
+        'cookbook': `<i class="fa-solid fa-book-open px-2 md:text-3xl"></i>`,
+        'instagram': `<i class="fa-brands fa-instagram px-2 md:text-3xl"></i>`,
+        'youtube': `<i class="fa-brands fa-youtube px-2 md:text-3xl"></i>`,
+        'default': `<i class="fa-solid fa-link px-2 md:text-3xl"></i>`
+    };
+    const key = source.toLowerCase();
+    return icons[key] || icons.default;
+}
+
+
+/**
+ * Generates the HTML for the recipe source (avatar or icon).
+ * @param {object} recipe - The recipe data object.
+ * @param {object} theme - The color scheme.
+ * @returns {string} - The HTML for the source display.
+*/
+function getSourceDisplayHTML(recipe, theme) {
+    if (recipe.source) {
+        if (recipe.source === 'family' && recipe.sourceText) {
+            const source = recipe.sourceText;
+            return `
+                <a href="category.html?source=${encodeURIComponent(source)}" class="flex flex-col items-center group">
+                    <img src="./assets/sources/${source}.jpeg"
+                         alt="${source}" 
+                         class="w-32 h-32 rounded-full mb-4 object-cover border-2 transition-colors"
+                         onerror="this.onerror=null;this.src='https://placehold.co/128x128/ccc/fff?text=?';">
+                    <span class="md:text-3xl font-bold ${theme.titleClass} mt-1">
+                        ${source}
+                        ${recipe.sourceLink ? `
+                        <a href=${recipe.sourceLink} target="_blank" rel="noopener noreferrer" class="meta-item">
+                            <i class="fa-solid fa-up-right-from-square text-sm text-stone-500"></i>
+                        </a>`: ''}
+                    </span>
+                </a>
+            `;
+        } else {
+            const source = recipe.source;
+            const icon = getSourceIcon(source);
+            return `
+                <a href="category.html?source=${encodeURIComponent(source)}" class="flex flex-col items-center group">
+                    <div class="w-10 h-10 flex items-center justify-center ${theme.titleClass}">
+                        ${icon}
+                    </div>
+                    <p class="md:text-3xl font-bold ${theme.titleClass}">${recipe.sourceText} 
+                        ${recipe.sourceLink ? `
+                        <a href=${recipe.sourceLink} target="_blank" rel="noopener noreferrer" class="meta-item">
+                            <i class="fa-solid fa-up-right-from-square text-sm text-stone-500"></i>
+                        </a>`: ''}
+                    </p>
+                    ${recipe.sourceSubtext ? `<p class="md:text-sm font-bold">${recipe.sourceSubtext}</p>` : ''}
+                </a>
+            `;
+        }
+    }
+    return `
+        <div class="flex flex-col items-center text-stone-400">
+            <div class="w-10 h-10 flex items-center justify-center">
+                ${getSourceIcon('default')}
+            </div>
+            <span class="text-xs mt-1">N/A</span>
+        </div>
+    `;
+}
+
+/**
  * Creates and injects the HTML for the found recipe.
  * @param {string} categoryKey - The key for the category in recipeData (e.g., 'appetizers').
  * @param {object} recipe - The recipe data object.
@@ -70,6 +141,7 @@ function renderRecipe(categoryKey, recipe) {
     const ingredientsHTML = recipe.ingredients.map(ing => `<li class="border-b py-2">${ing}</li>`).join('');
     const instructionsHTML = recipe.instructions.map(step => `<li>${step}</li>`).join('');
     const preparationHTML = recipe.preparation.map(step => `<li>${step}</li>`).join('');
+    const sourceHTML = getSourceDisplayHTML(recipe, theme);
 
     const recipeHTML = `
         <div class="bg-white rounded-lg shadow-lg overflow-hidden">                    
@@ -98,7 +170,10 @@ function renderRecipe(categoryKey, recipe) {
                                 <span id="servings">${recipe.servings}</span>
                             </div>
                         </div>
-                        <div class="content-center text-center px-4 mt-4 mb-4">
+                        <div class="text-center px-4 py-2 w-full md:w-auto mt-2 md:mt-0">
+                            ${sourceHTML}
+                        </div>
+                        <!-- <div class="content-center text-center px-4 mt-4 mb-4">
                             <i class="${sourceIconClass} ${theme.titleClass} px-2 md:text-3xl"></i>
                             <p class="md:text-3xl font-bold ${theme.titleClass}">${recipe.sourceText} 
                                 ${recipe.sourceLink ? `
@@ -106,8 +181,8 @@ function renderRecipe(categoryKey, recipe) {
                                     <i class="fa-solid fa-up-right-from-square text-sm text-stone-500"></i>
                                 </a>`: ''}
                             </p>
-                            ${recipe.sourceSubtext ? `<p class="md:text-sm font-bold">${recipe.sourceSubtext}</p>`: ''}
-                        </div>
+                            ${recipe.sourceSubtext ? `<p class="md:text-sm font-bold">${recipe.sourceSubtext}</p>` : ''}
+                        </div> -->
                     </div>
                 </div>
 

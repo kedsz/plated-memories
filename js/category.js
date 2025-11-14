@@ -72,50 +72,104 @@ export function updateHeader(category, categoryKey) {
 
 /**
  * Creates and injects all recipes for a category into the DOM.
+ * @param {object} data - The JSON data object.
+ * @param {string} categoryKey - The key for the category in recipeData (e.g., 'appetizers').
  */
-function renderCategoryPage() {
+function renderCategoryPage(data, categoryKey) {
     const gridContainer = document.getElementById('recipe-grid');
 
-    // Get category from URL parameter
-    const urlParams = new URLSearchParams(window.location.search);
-    const categoryKey = urlParams.get('category');
+    loadComponents(data, categoryKey);
+    if (categoryKey && data[categoryKey]) {
+        const category = data[categoryKey];
+        updateHeader(category, categoryKey);
 
-    fetch('./recipes.json')
-        .then(response => {
-            if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`);
-            }
-            return response.json();
-        })
-        .then(data => {
-            loadComponents(data, categoryKey);
-            if (categoryKey && data[categoryKey]) {
-                const category = data[categoryKey];
-                updateHeader(category, categoryKey);
-
-                // Sort and render recipe cards
-                const sortedRecipes = [...category.recipes].sort((a, b) => a.name.localeCompare(b.name));
-                let recipeCardsHTML = '';
-                sortedRecipes.forEach(function (recipe) {
-                    recipeCardsHTML += createRecipeCard(categoryKey, recipe, "w-full");
-                });
-
-                gridContainer.innerHTML = recipeCardsHTML;
-            } else {
-                // Handle case where category is not found
-                titleElement.textContent = "Category Not Found";
-                document.getElementById('category-description').textContent = "Sorry, we couldn't find the recipes you were looking for.";
-            }
-        })
-        .catch(error => {
-            console.error('Error loading or parsing JSON:', error);
+        // Sort and render recipe cards
+        const sortedRecipes = [...category.recipes].sort((a, b) => a.name.localeCompare(b.name));
+        let recipeCardsHTML = '';
+        sortedRecipes.forEach(function (recipe) {
+            recipeCardsHTML += createRecipeCard(categoryKey, recipe, "w-full");
         });
 
+        gridContainer.innerHTML = recipeCardsHTML;
+    } else {
+        // Handle case where category is not found
+        titleElement.textContent = "Category Not Found";
+        document.getElementById('category-description').textContent = "Sorry, we couldn't find the recipes you were looking for.";
+    }
+}
+
+/**
+ * Creates and injects all recipes for a source into the DOM.
+ * @param {object} data - The JSON data object.
+ * @param {string} sourceName - The source in recipeData (e.g., 'youtube').
+ */
+function renderSourceRecipePage(data, sourceName) {
+    const gridContainer = document.getElementById('recipe-grid');
+    const backButton = document.getElementById('all-sources');
+
+    loadComponents(data, sourceName);
+
+    if (sourceName) {
+        updateHeader({ "title": sourceName }, 'sources');
+
+        // Filter recipes by source
+        const allRecipes = Object.entries(data).flatMap(([categoryKey, categoryData]) =>
+            categoryData.recipes.map(recipe => ({
+                ...recipe,
+                category: categoryKey
+            }))
+        );
+        const recipesFromSource = allRecipes.filter(recipe => {
+            if (recipe.source === 'family' && recipe.sourceText) {
+                return recipe.sourceText === sourceName;
+            }
+            return recipe.source === sourceName;
+        });
+
+        // Sort and render recipe cards
+        const sortedRecipes = [...recipesFromSource].sort((a, b) => a.name.localeCompare(b.name));
+        let recipeCardsHTML = '';
+        sortedRecipes.forEach(function (recipe) {
+            recipeCardsHTML += createRecipeCard(recipe.category, recipe, "w-full");
+        });
+
+        backButton.classList.remove('hidden');
+        if (recipeCardsHTML.length > 0) {
+            gridContainer.innerHTML = recipeCardsHTML;
+        } else {
+            gridContainer.innerHTML = `<p class="col-span-full text-center text-stone-500">No recipes found for this source.</p>`;
+        }
+
+    } else {
+        // Handle case where source is not found
+        titleElement.textContent = "Source Not Found";
+        document.getElementById('source-description').textContent = "Sorry, we couldn't find the source you were looking for.";
+    }
 }
 
 document.addEventListener('DOMContentLoaded', () => {
     const mainContainer = document.getElementById('category-collection');
     if (mainContainer) {
-        renderCategoryPage();
+        // Get category/source from URL parameter
+        const urlParams = new URLSearchParams(window.location.search);
+        const categoryKey = urlParams.get('category');
+        const sourceName = urlParams.get('source');
+
+        fetch('./recipes.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                return response.json();
+            })
+            .then(data => {
+                if (categoryKey)
+                    renderCategoryPage(data, categoryKey);
+                else
+                    renderSourceRecipePage(data, sourceName);
+            })
+            .catch(error => {
+                console.error('Error loading or parsing JSON:', error);
+            });
     }
 });

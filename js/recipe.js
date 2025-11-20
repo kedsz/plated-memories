@@ -81,6 +81,23 @@ function getSourceDisplayHTML(recipe, theme) {
                     </span>
                 </a>
             `;
+        } else if (recipe.source === 'cookbook' && recipe.sourceText) {
+            const source = recipe.sourceText.split(" - ")[1];
+            const icon = getSourceIcon('Cookbook');
+            return `
+                <a href="category.html?source=${encodeURIComponent(source)}" class="flex flex-col items-center group">
+                    <div class="w-10 h-10 flex items-center justify-center ${theme.titleClass}">
+                        ${icon}
+                    </div>
+                    <p class="md:text-3xl font-bold ${theme.titleClass}">${recipe.sourceText} 
+                        ${recipe.sourceLink ? `
+                        <a href=${recipe.sourceLink} target="_blank" rel="noopener noreferrer" class="meta-item">
+                            <i class="fa-solid fa-up-right-from-square text-sm text-stone-500"></i>
+                        </a>`: ''}
+                    </p>
+                    ${recipe.sourceSubtext ? `<p class="md:text-sm font-bold">${recipe.sourceSubtext}</p>` : ''}
+                </a>
+            `;
         } else {
             const source = recipe.source;
             const icon = getSourceIcon(source);
@@ -119,24 +136,6 @@ function renderRecipe(categoryKey, recipe) {
     const container = document.getElementById('recipe-container');
     const theme = findCategoryTheme(categoryKey);
 
-    let sourceIconClass = 'fa-solid fa-link'; // Default icon
-    switch (`${recipe.source}`) {
-        case 'youtube':
-            sourceIconClass = 'fa-brands fa-youtube';
-            break;
-        case 'instagram':
-            sourceIconClass = 'fa-brands fa-instagram';
-            break;
-        case 'cookbook':
-            sourceIconClass = 'fa-solid fa-book-open';
-            break;
-        case 'family':
-            sourceIconClass = 'fa-solid fa-users';
-            break;
-        default:
-            sourceIconClass = 'fa-solid fa-link';
-    }
-
     // Generate list items for ingredients and instructions
     const ingredientsHTML = recipe.ingredients.map(ing => `<li class="border-b py-2">${ing}</li>`).join('');
     const instructionsHTML = recipe.instructions.map(step => `<li>${step}</li>`).join('');
@@ -173,16 +172,6 @@ function renderRecipe(categoryKey, recipe) {
                         <div class="text-center px-4 py-2 w-full md:w-auto mt-2 md:mt-0">
                             ${sourceHTML}
                         </div>
-                        <!-- <div class="content-center text-center px-4 mt-4 mb-4">
-                            <i class="${sourceIconClass} ${theme.titleClass} px-2 md:text-3xl"></i>
-                            <p class="md:text-3xl font-bold ${theme.titleClass}">${recipe.sourceText} 
-                                ${recipe.sourceLink ? `
-                                <a href=${recipe.sourceLink} target="_blank" rel="noopener noreferrer" class="meta-item">
-                                    <i class="fa-solid fa-up-right-from-square text-sm text-stone-500"></i>
-                                </a>`: ''}
-                            </p>
-                            ${recipe.sourceSubtext ? `<p class="md:text-sm font-bold">${recipe.sourceSubtext}</p>` : ''}
-                        </div> -->
                     </div>
                 </div>
 

@@ -10,8 +10,8 @@
                 "prepTime": "15 min",
                 "cookTime": "15 min",
                 "servings": "4",
-                "source": "Cookbook",
-                "sourceText": "Umma by Sarah Ahn",
+                "source": "cookbook",
+                "sourceText": "Umma - Sarah Ahn",
                 "sourceSubtext": "A Korean Mom's Kitchen Wisdom and 100 Family Recipes",
                 "ingredients": [
                     "2 oz (57g) frozen fish cake sheets",
@@ -61,10 +61,10 @@
                 "imageUrl": "./assets/appetizers/cucumber_kimchi.png",
                 "description": "Oi Kimchi is a popular kimchi to enjoy in the summer because it's easy to prepare and offers a refreshing taste. This is a ready-to-eat kimchi that is vibrantly crisp and savory with a hint of spiciness.",
                 "prepTime": "20 min",
-                "cookTime": "0 min",
+                "cookTime": "-",
                 "servings": "~8 cups",
-                "source": "Cookbook",
-                "sourceText": "Umma by Sarah Ahn",
+                "source": "cookbook",
+                "sourceText": "Umma - Sarah Ahn",
                 "sourceSubtext": "A Korean Mom's Kitchen Wisdom and 100 Family Recipes",
                 "ingredients": [
                     "3 lbs (1.4 kg) pickling cucumbers (e.g. Kirby)",
@@ -109,14 +109,14 @@
                 "prepTime": "25 min",
                 "cookTime": "45 min",
                 "servings": "4-6",
-                "source": "Cookbook",
-                "sourceText": "Umma by Sarah Ahn",
+                "source": "cookbook",
+                "sourceText": "Umma - Sarah Ahn",
                 "sourceSubtext": "A Korean Mom's Kitchen Wisdom and 100 Family Recipes",
                 "ingredients": [
                     "3 lbs (1.4 kg) chicken wings",
                     "2 1/2 cups milk",
                     "2 tsp black pepper, divided",
-                    "1 tsp ajinomoto/miwon matsogeum (MSG seasoning salt)",
+                    "1 tsp ajinomoto/miwon matsogeum (MSG)",
                     "3 1/2 cups (420g) Korean frying mix, divided",
                     "1 tbsp (10g) curry powder, divided",
                     "1 tbsp Dasida beef stock powder",
@@ -189,7 +189,8 @@
                     "condiment",
                     "vegetarian",
                     "dip",
-                    "no-cook"
+                    "no-cook",
+                    "mexican"
                 ]
             },
             {
@@ -213,8 +214,8 @@
                     "1 bunch coriander/cilantro",
                     "1/2 tsp cumin",
                     "1/2 tsp chili powder",
-                    "Salt, to taste",
-                    "Freshly ground black pepper, to taste"
+                    "Salt, (to taste)",
+                    "Freshly ground black pepper, (to taste)"
                 ],
                 "preparation": [
                     "Cook the 12 slices of bacon until crispy, then set aside to cool. Once cooled, crumble the bacon and spread it on a large plate.",
@@ -261,7 +262,7 @@
                     "2 tbsp soy sauce",
                     "1/2 tsp turmeric powder",
                     "1 tsp black pepper",
-                    "Salt to taste",
+                    "Salt (to taste)",
                     "1 cup self-raising flour",
                     "1/2 cup water (approx.)",
                     "Vegetable oil, for deep frying"
@@ -286,7 +287,8 @@
                     "family",
                     "fried",
                     "chicken",
-                    "prawns"
+                    "prawns",
+                    "indian"
                 ]
             },
             {
@@ -303,7 +305,7 @@
                     "30 chicken lollipops",
                     "4 tbsp ginger-garlic paste",
                     "1 large onion (for paste)",
-                    "Salt to taste",
+                    "Salt (to taste)",
                     "2 medium onions (for batter)",
                     "6-10 green chilies",
                     "1/4 cup fresh coriander leaves",
@@ -333,6 +335,115 @@
                     "fried",
                     "indo-chinese"
                 ]
+            },
+            {
+                "id": "prawn_toast",
+                "name": "Prawn Toast",
+                "imageUrl": "./assets/appetizers/prawn_toast.png",
+                "description": "Savory fried bread bites topped with a flavorful minced prawn and chicken mixture, coated in breadcrumbs and deep-fried until golden and crispy.",
+                "prepTime": "30 min",
+                "cookTime": "20 min",
+                "servings": "Makes 40-50 pieces",
+                "source": "family",
+                "sourceText": "Rosy Aunty",
+                "ingredients": [
+                    "450g prawns/shrimp",
+                    "100g boneless chicken",
+                    "1-2 green chillies (adjust to taste)",
+                    "1 inch piece ginger",
+                    "3-4 cloves garlic",
+                    "1/4 cup fresh coriander leaves",
+                    "2 spring onions",
+                    "1/4 tsp white pepper powder",
+                    "Salt (to taste)",
+                    "2-3 eggs, beaten (divided use)",
+                    "1 tbsp cornflour",
+                    "1/4 tsp ajinomoto/miwon matsogeum (MSG) (optional)",
+                    "2 tbsp cashew nut pieces",
+                    "10-12 slices white bread",
+                    "1 cup dried breadcrumbs",
+                    "Oil for deep frying"
+                ],
+                "preparation": [
+                    "Clean the prawns and chicken thoroughly.",
+                    "Mince the prawns, chicken, green chillies, ginger, garlic, coriander leaves, and spring onions together finely.",
+                    "Beat the eggs in a bowl. Reserve roughly half of one beaten egg for the mince mixture and keep the rest in a shallow bowl for coating.",
+                    "Trim the crusts off the bread slices and cut each slice into four equal pieces (squares or triangles)."
+                ],
+                "instructions": [
+                    "In a bowl, add the minced meat mixture.",
+                    "Add the white pepper powder, salt, the reserved half beaten egg, cornflour, ajinomoto, and cashew nut pieces to the mince. Mix very well to combine. Set aside.",
+                    "Take a piece of the cut bread. Apply some of the remaining beaten egg to one side.",
+                    "Immediately spread a layer of the prawn and chicken mixture onto the egg-coated side of the bread.",
+                    "Brush or dab a little more beaten egg on top of the meat mixture.",
+                    "Dip the top part (the meat side) into the breadcrumbs to coat the filling.",
+                    "Heat oil in a deep pan or wok.",
+                    "Deep fry the bread pieces, meat-side down first carefully, until golden brown and the filling is cooked through.",
+                    "Drain on paper towels and serve hot."
+                ],
+                "notes": "Ensure the oil is hot enough so the bread doesn't absorb too much grease, but not so hot that the bread burns before the raw meat mixture cooks.",
+                "tags": [
+                    "family",
+                    "fried",
+                    "prawns",
+                    "chicken",
+                    "bread"
+                ]
+            },
+            {
+                "id": "potato_chops",
+                "name": "Potato Chops",
+                "imageUrl": "./assets/appetizers/potato_chops.png",
+                "description": "Traditional East Indian Potato and Mince Patties. A savory spiced beef filling encased in a soft potato mash, breaded, and fried to golden perfection.",
+                "prepTime": "60 min",
+                "cookTime": "30 min",
+                "servings": "Makes 10-12 chops",
+                "source": "family",
+                "sourceText": "Mom",
+                "ingredients": [
+                    "2.25 cups potatoes",
+                    "250g beef mince",
+                    "4 large onions",
+                    "2 green chillies",
+                    "6 garlic cloves",
+                    "1 inch ginger",
+                    "2 tbsp coriander/cilantro",
+                    "1 tbsp mint",
+                    "1 lime",
+                    "1 egg",
+                    "Breadcrumbs, for coating",
+                    "Oil for frying",
+                    "Salt and pepper (to taste)"
+                ],
+                "preparation": [
+                    "Boil the potatoes until tender, remove the skins, and mash them until smooth with some salt. Set aside.",
+                    "Finely chop the onions.",
+                    "Finely chop the green chillies, garlic, ginger, coriander and mint.",
+                    "Juice the lime.",
+                    "Lightly beat the egg in a shallow bowl.",
+                    "Prepare a plate with breadcrumbs."
+                ],
+                "instructions": [
+                    "Heat a teaspoon of oil in a casserole or pan and add the chopped onions. Fry the onions until they caramelise lightly.",
+                    "Add the ginger, garlic, and green chillies and continue to fry the mixture until fragrant, about two to three minutes.",
+                    "Turn up the heat. Add the mince, salt, and pepper. Fry the meat until browned lightly.",
+                    "Lower the heat and continue to cook the meat until all the water released has evaporated.",
+                    "When cooked through, remove from the heat and toss with the herbs and lime juice. Set aside to cool completely.",
+                    "Take a portion of the cooled mashed potato (about the size of a ping pong ball) and flatten it in your palm (it should be about 1/4 inch thick). If the potato is too sticky, grease your palm with some oil.",
+                    "Cup your palm a little to form a pocket. Add a tablespoon and a half of the cooled mince mixture to the centre of the flattened potato pocket.",
+                    "Enclose the filling by drawing up the sides of the potato and cover the filling completely so no minced meat is visible. Shape into a round patty. Repeat with the remaining potato and mince.",
+                    "Heat a generous amount of oil in a wide frying pan.",
+                    "Dip each potato chop in the beaten egg, then roll in breadcrumbs to coat.",
+                    "Fry in the hot oil until each potato chop is golden brown on both sides."
+                ],
+                "notes": "Ensure the mince filling is cooked until dry; excess moisture can cause the chops to break during frying.",
+                "tags": [
+                    "family",
+                    "indian",
+                    "potato",
+                    "beef",
+                    "fried"
+                ]
             }
         ]
     },
@@ -357,7 +468,7 @@
                     "8 cloves garlic",
                     "2 bunches coriander/cilantro",
                     "1 cup chicken stock",
-                    "Salt to taste"
+                    "Salt (to taste)"
                 ],
                 "preparation": [
                     "Rinse the rice a few times till water is slightly clear and set aside.",
@@ -400,7 +511,7 @@
                     "1 tbsp soy sauce",
                     "2 tbsp oil",
                     "1/2 cup dark rum/sherry",
-                    "Salt to taste"
+                    "Salt (to taste)"
                 ],
                 "preparation": [
                     "Peel and dice the onions.",
@@ -452,7 +563,7 @@
                     "1/2 tsp cumin seeds",
                     "1/2 tsp turmeric powder",
                     "1/4 tsp poppy seeds",
-                    "Salt to taste"
+                    "Salt (to taste)"
                 ],
                 "preparation": [
                     "Roast the red chillies, pepper, coriander seeds, cumin and poppy seeds.",
@@ -485,8 +596,8 @@
                 "prepTime": "50 min",
                 "cookTime": "150 min",
                 "servings": "4-6",
-                "source": "Cookbook",
-                "sourceText": "Umma by Sarah Ahn",
+                "source": "cookbook",
+                "sourceText": "Umma - Sarah Ahn",
                 "sourceSubtext": "A Korean Mom's Kitchen Wisdom and 100 Family Recipes",
                 "ingredients": [
                     "1 tbsp sugar",
@@ -548,8 +659,8 @@
                 "prepTime": "20 min",
                 "cookTime": "40 min",
                 "servings": "4-6",
-                "source": "Cookbook",
-                "sourceText": "Umma by Sarah Ahn",
+                "source": "cookbook",
+                "sourceText": "Umma - Sarah Ahn",
                 "sourceSubtext": "A Korean Mom's Kitchen Wisdom and 100 Family Recipes",
                 "ingredients": [
                     "1 1/2 cups (312g) short- or medium-grain white rice",
@@ -602,8 +713,8 @@
                 "prepTime": "45 min",
                 "cookTime": "60 min",
                 "servings": "4-6",
-                "source": "Cookbook",
-                "sourceText": "Umma by Sarah Ahn",
+                "source": "cookbook",
+                "sourceText": "Umma - Sarah Ahn",
                 "sourceSubtext": "A Korean Mom's Kitchen Wisdom and 100 Family Recipes",
                 "ingredients": [
                     "2 tbsp sugar, divided",
@@ -656,8 +767,8 @@
                 "prepTime": "60 min",
                 "cookTime": "45 min",
                 "servings": "4-6",
-                "source": "Cookbook",
-                "sourceText": "Dessert Person by Claire Saffitz",
+                "source": "cookbook",
+                "sourceText": "Dessert Person - Claire Saffitz",
                 "sourceSubtext": "Recipes and Guidance for Baking with Confidence",
                 "ingredients": [
                     "1 batch <a href='recipe.html?category=basics&id=pie_dough' class='text-blue-600 hover:underline'>Flaky All-Butter Pie Dough</a>",
@@ -719,7 +830,7 @@
                     "3 bay leaves",
                     "5-6 cloves",
                     "1 piece tamarind",
-                    "Salt to taste",
+                    "Salt (to taste)",
                     "1 tbsp soy sauce (optional)",
                     "1 tbsp chilli garlic sauce (optional)"
                 ],
@@ -746,6 +857,7 @@
                     "curry",
                     "pork",
                     "spicy",
+                    "indian",
                     "mangalorean"
                 ]
             },
@@ -781,7 +893,7 @@
                     "1 tbsp Ghee",
                     "1 sprig curry leaves",
                     "1 Maggi chicken cube (optional)",
-                    "Salt to taste"
+                    "Salt (to taste)"
                 ],
                 "preparation": [
                     "Clean and cut the chicken to desired size pieces.",
@@ -951,6 +1063,63 @@
                     "spanish",
                     "vegeterian"
                 ]
+            },
+            {
+                "id": "braised_pork",
+                "name": "Pork Braised with Chilies",
+                "imageUrl": "./assets/mains/braised_pork.png",
+                "description": "Pork shoulder is braised in a flavorful liquid of beer, chilies, and tomatoes until tender. Perfect for shredding into tacos or serving as an entrée.",
+                "prepTime": "30 min (plus overnight salting)",
+                "cookTime": "4 hours",
+                "servings": "6-8",
+                "source": "cookbook",
+                "sourceText": "Salt Fat Acid Heat - Samin Nosrat",
+                "sourceSubtext": "Mastering the Elements of Good Cooking",
+                "ingredients": [
+                    "4 pounds boneless pork shoulder (sometimes called pork butt)",
+                    "Salt (to taste)",
+                    "1 garlic head",
+                    "Neutral-tasting oil",
+                    "2 medium yellow onions",
+                    "2 cups crushed tomatoes in their juice, fresh or canned",
+                    "2 tbsp cumin seed (or 1 tbsp ground cumin)",
+                    "2 bay leaves",
+                    "8 dried chilies (such as Guajillo, New Mexico, Anaheim, or ancho)",
+                    "1 tbsp smoked paprika or 2 smoked peppers (optional)",
+                    "2 to 3 cups lager or pilsner beer",
+                    "1/2 cup coarsely chopped cilantro for garnish"
+                ],
+                "preparation": [
+                    "The day before you plan to cook, season the pork generously with salt. Cover and refrigerate.",
+                    "Preheat the oven to 325°F (165°C).",
+                    "Remove any roots from the head of garlic, then slice it in half crosswise. (Don't worry about the skins; they get strained out later).",
+                    "Slice the onions.",
+                    "Stem, seed, and rinse the dried chilies.",
+                    "Coarsely chop the cilantro."
+                ],
+                "instructions": [
+                    "Set a large, ovenproof Dutch oven or similar pot over medium-high heat. When it's warm, add 1 tbsp oil. When the oil shimmers, place the pork in the pot. Brown it evenly on all sides, about 3 to 4 minutes per side.",
+                    "When the meat is brown, remove it and set it aside. Carefully tip out as much of the fat from the pot as you can, then return it to the stove.",
+                    "Reduce the heat to medium and add 1 tbsp neutral oil. Add the onions and garlic and cook, stirring from time to time, until the onions are tender and lightly browned, about 15 minutes.",
+                    "Add the tomatoes and juice, cumin, bay leaves, dried chilies, and smoked paprika or peppers (if using) into the pot and stir.",
+                    "Nestle pork atop the aromatic base, and add enough beer to come 1.5 inches up the sides of the meat. Make sure the peppers and bay leaves are mostly immersed in the juices so that they do not burn.",
+                    "Increase the heat and bring to a boil on the stove, then slip the pot, uncovered, into the oven.",
+                    "After 30 minutes, check to make sure the liquid is just barely simmering. About every 30 minutes, turn the pork over and check the level of the liquid. Add more beer as needed to maintain the liquid at a depth of 1 1/2 inches.",
+                    "Cook until the meat is tender and falls apart at the touch of a fork, 3 1/2 to 4 hours.",
+                    "Remove the cooked pork from the oven and carefully remove it from the pan. Discard the bay leaves.",
+                    "Using a food mill, blender, or food processor, purée the aromatics, and strain them through a sieve. Discard the solids (garlic skins, chili skins, etc.).",
+                    "Skim the fat from the sauce and then taste, adjusting salt as needed.",
+                    "Shred the meat and combine it with the sauce to make pork tacos, or slice it and spoon the sauce over the pork to serve it as an entrée.",
+                    "Garnish with chopped cilantro and serve with an acidic condiment such as Mexican crema, salsa, or a simple squeeze of lime."
+                ],
+                "notes": "<ul class='space-y-2 list-none'><li>Cover and refrigerate leftovers for up to 5 days.</li><li>Braised meat freezes exceptionally well; simply submerge in cooking liquid, cover, and freeze for up to 2 months. To serve, return the braise to a boil on the stove with a splash of water.</li>",
+                "tags": [
+                    "cookbook",
+                    "pork",
+                    "braised",
+                    "mexican",
+                    "tacos"
+                ]
             }
         ]
     },
@@ -976,7 +1145,7 @@
                     "1 tsp sugar",
                     "1 tbsp oil",
                     "3 cloves garlic",
-                    "Salt to taste"
+                    "Salt (to taste)"
                 ],
                 "preparation": [
                     "Grate the carrots.",
@@ -993,7 +1162,8 @@
                     "family",
                     "salad",
                     "vegetarian",
-                    "yogurt"
+                    "yogurt",
+                    "middle eastern"
                 ]
             },
             {
@@ -1015,7 +1185,7 @@
                     "5 cloves garlic",
                     "1 bunch coriander/cilantro",
                     "A knob of ginger",
-                    "Salt to taste",
+                    "Salt (to taste)",
                     "Oil to fry"
                 ],
                 "preparation": [
@@ -1039,7 +1209,8 @@
                     "salad",
                     "yogurt",
                     "vegetarian",
-                    "fried"
+                    "fried",
+                    "middle eastern"
                 ]
             },
             {
@@ -1090,8 +1261,8 @@
                 "prepTime": "25 min",
                 "cookTime": "5 min",
                 "servings": "Makes 9 cups",
-                "source": "Cookbook",
-                "sourceText": "Umma by Sarah Ahn",
+                "source": "cookbook",
+                "sourceText": "Umma - Sarah Ahn",
                 "sourceSubtext": "A Korean Mom's Kitchen Wisdom and 100 Family Recipes",
                 "ingredients": [
                     "1 1/2 lbs (680g) putgochu (young green Korean chiles)",
@@ -1132,8 +1303,8 @@
                 "prepTime": "15 min",
                 "cookTime": "-",
                 "servings": "4-6",
-                "source": "Cookbook",
-                "sourceText": "Umma by Sarah Ahn",
+                "source": "cookbook",
+                "sourceText": "Umma - Sarah Ahn",
                 "sourceSubtext": "A Korean Mom's Kitchen Wisdom and 100 Family Recipes",
                 "ingredients": [
                     "8 oz (227g) <a href='recipe.html?category=sides&id=chile_pickle' class='text-blue-600 hover:underline'>Gochu Jangajji</a>",
@@ -1176,8 +1347,8 @@
                 "prepTime": "15 min",
                 "cookTime": "35 min",
                 "servings": "4",
-                "source": "Cookbook",
-                "sourceText": "Umma by Sarah Ahn",
+                "source": "cookbook",
+                "sourceText": "Umma - Sarah Ahn",
                 "sourceSubtext": "A Korean Mom's Kitchen Wisdom and 100 Family Recipes",
                 "ingredients": [
                     "12 oz (340g) baby yellow potatoes, unpeeled",
@@ -1212,6 +1383,108 @@
                     "korean",
                     "vegetarian",
                     "banchan"
+                ]
+            },
+            {
+                "id": "kuku_sabzi",
+                "name": "Herb and Greens Frittata",
+                "imageUrl": "./assets/sides/kuku_sabzi.png",
+                "description": "Kuku Sabzi is a Persian frittata heavily skewed in favor of greens with just enough eggs to bind them together. It features a deeply browned crust and a bright, custardy center.",
+                "prepTime": "45 min",
+                "cookTime": "45 min",
+                "servings": "6-8",
+                "source": "cookbook",
+                "sourceText": "Salt Fat Acid Heat - Samin Nosrat",
+                "sourceSubtext": "Mastering the Elements of Good Cooking",
+                "ingredients": [
+                    "2 bunches green chard",
+                    "1 large leek",
+                    "Extra-virgin olive oil",
+                    "Salt (to taste)",
+                    "6 tbsp unsalted butter",
+                    "4 cups finely chopped cilantro leaves and tender stems",
+                    "2 cups finely chopped dill leaves and tender stems",
+                    "8 to 9 large eggs"
+                ],
+                "preparation": [
+                    "Preheat the oven to 350°F (175°C) if you do not want to flip the kuku halfway through cooking.",
+                    "Strip the chard leaves from the stems. Reserve the stems.",
+                    "Thinly slice the chard stems, discarding any tough bits at the base.",
+                    "Remove the root and top inch of the leek, then quarter it lengthwise. Cut each quarter into 1/4-inch slices.",
+                    "Place sliced leeks in a large bowl and wash vigorously to remove dirt. Drain as much water as possible.",
+                    "Combine the washed leeks and sliced chard stems.",
+                    "Finely chop the cilantro and dill."
+                ],
+                "instructions": [
+                    "Gently heat a 10- or 12-inch cast iron or nonstick frying pan over medium heat. Add enough olive oil to coat the bottom. Add the chard leaves and a generous pinch of salt. Cook, stirring occasionally, until wilted (4 to 5 minutes). Remove from pan, set aside, and allow to cool.",
+                    "Return the pan to the stove over medium heat. Add 3 tablespoons of butter. When foaming, add the leek and chard stem mixture and a pinch of salt. Cook until tender and translucent (15 to 20 minutes). If needed, add a splash of water and cover to entrap steam. Remove from heat.",
+                    "Squeeze the cooled chard leaves dry and discard the liquid. Chop the leaves coarsely.",
+                    "In a large bowl, combine the chopped chard leaves, cilantro, dill, and the cooked leek mixture. Let cool slightly, then mix evenly with your hands. Season generously with salt.",
+                    "Add the eggs one at a time, mixing until the mixture is just barely bound with egg (you may not need all 9 eggs).",
+                    "Wipe out and reheat the pan over medium-high heat. Add the remaining 3 tablespoons of butter and 2 tablespoons of olive oil. When foaming, carefully pack the kuku mixture into the pan.",
+                    "After about 2 minutes, reduce heat to medium. Cook without touching until the bottom is golden brown (about 10 minutes).",
+                    "<b>To Flip:</b> Gather your courage, flip the kuku onto a plate/pan, add a little more oil to the skillet, slide the kuku back in, and cook for another 10 minutes.",
+                    "<b>To Bake:</b> Slide the pan into the preheated oven and bake until the center is fully set (10 to 12 minutes).",
+                    "Blot away excess oil and serve warm, at room temperature, or cold."
+                ],
+                "notes": "For an authentic Persian touch, add 1 cup lightly toasted walnuts (chopped) or 1/4 cup barberries to the mixture before cooking.",
+                "tags": [
+                    "cookbook",
+                    "persian",
+                    "frittata",
+                    "vegetarian",
+                    "baking",
+                    "eggs",
+                    "herbs"
+                ]
+            },
+            {
+                "id": "kufte_kebabs",
+                "name": "Kufte Kebabs",
+                "imageUrl": "./assets/sides/kufte_kebabs.png",
+                "description": "Essentially a torpedo-shaped meatball found throughout the Near and Middle East. This Persian variation uses ground lamb, saffron, and herbs to create a flavorful, juicy kebab without the complexity of more elaborate dishes.",
+                "prepTime": "30 min",
+                "cookTime": "20 min",
+                "servings": "~24 kebabs (serves 4-6)",
+                "source": "cookbook",
+                "sourceText": "Salt Fat Acid Heat - Samin Nosrat",
+                "sourceSubtext": "Mastering the Elements of Good Cooking",
+                "ingredients": [
+                    "1 large pinch saffron",
+                    "1 large yellow onion, coarsely grated",
+                    "1.5 lbs ground lamb (preferably shoulder meat)",
+                    "3 garlic cloves, finely grated or pounded with a pinch of salt",
+                    "1.5 tsp ground turmeric",
+                    "6 tbsp very finely chopped parsley, mint, and/or cilantro in any combination",
+                    "Freshly ground black pepper",
+                    "Salt (to taste)",
+                    "Olive oil (if cooking indoors)"
+                ],
+                "preparation": [
+                    "Prepare the saffron tea by steeping the saffron in a small amount of hot water.",
+                    "Coarsely grate the yellow onion.",
+                    "Push the grated onion through a sieve, pressing out as much liquid as possible. Discard the liquid.",
+                    "Finely grate or pound the garlic cloves.",
+                    "Finely chop the herbs."
+                ],
+                "instructions": [
+                    "Place the saffron tea, dried onion pulp, lamb, garlic, turmeric, herbs, and a pinch of black pepper into a large bowl.",
+                    "Add three generous pinches of salt.",
+                    "Use your hands to knead the mixture together vigorously. Your body heat helps melt the fat, making the mixture stick together better and yielding less crumbly kebabs.",
+                    "Cook a tiny piece of the mixture in a skillet to taste for salt and seasonings. Adjust the raw mixture as needed.",
+                    "Moisten your hands with water. Form oblong, three-sided meatballs (torpedoes) by gently curling your fingers around about 2 tablespoons of the mixture.",
+                    "Lay the formed kebabs onto a parchment-lined baking sheet.",
+                    "<b>To cook indoors:</b> Set a cast iron skillet over high heat. Add just enough olive oil to coat the bottom. Cook for 6 to 8 minutes, flipping just once on each side.",
+                    "<b>To cook on a grill:</b> Grill over hot coals until charred on the outside and barely cooked through within, about 6 to 8 minutes. Rotate often once they start to brown.",
+                    "The kebabs should be firm but give a little when squeezed. If you cut one open, there should be a dime-size diameter of pink surrounded by a ring of brown."
+                ],
+                "notes": "Serve immediately with rice, yogurt, or salad.<p class='font-bold text-xl'>Variations:</p><ul class='space-y-2 list-none'><li><i>Moroccan Kofta</i>: Omit saffron. Replace herbs with 1/4 cup cilantro. Reduce turmeric to 1/2 tsp. Add 1 tsp ground cumin, 3/4 tsp hot pepper flakes, 1/2 tsp finely grated ginger, and a small pinch of ground cinnamon.</li><li><i>Turkish Köfte</i>: Use beef if desired. Omit turmeric, saffron, and herbs. Season with 1 tbsp Turkish Marash pepper (or 1 tsp hot pepper flakes), 1/4 cup finely chopped parsley, and 8 finely chopped mint leaves.</li>",
+                "tags": [
+                    "cookbook",
+                    "persian",
+                    "lamb",
+                    "middle eastern",
+                    "grilled"
                 ]
             }
         ]
@@ -1520,11 +1793,108 @@
                     "family",
                     "custard"
                 ]
+            },
+            {
+                "id": "chocolate_buttermilk_cake",
+                "name": "Chocolate Buttermilk Cake",
+                "imageUrl": "./assets/desserts/chocolate_buttermilk_cake.png",
+                "description": "A tender, moist cake with a serious amount of intensity from a combination of melted chocolate and cocoa. This cake is designed to be chocolaty enough to satisfy true chocolate lovers while remaining light.",
+                "prepTime": "30 min",
+                "cookTime": "40 min",
+                "servings": "10",
+                "source": "cookbook",
+                "sourceText": "Dessert Person - Claire Saffitz",
+                "sourceSubtext": "Recipes and Guidance for Baking with Confidence",
+                "ingredients": [
+                    "Butter and flour, for the pans",
+                    "2.25 cups (300g) all-purpose flour",
+                    "2.25 tsp baking powder",
+                    "2 tsp Diamond Crystal kosher salt (or 1 tsp table salt)",
+                    "1 tsp baking soda",
+                    "6 oz (170g) semisweet chocolate (approx 60% cocoa)",
+                    "2/3 cup brewed coffee (or 1 tsp instant coffee dissolved in 2/3 cup water)",
+                    "1/2 cup (41g) Dutch process cocoa powder",
+                    "3/4 cup (160g) buttermilk",
+                    "2 tsp vanilla extract",
+                    "1.5 sticks (170g) unsalted butter",
+                    "1 cup (200g) granulated sugar",
+                    "1 cup (200g) packed light brown sugar",
+                    "1/4 cup (57g) neutral oil (vegetable or grapeseed)",
+                    "3 large eggs (150g)",
+                    "Frosting of choice (e.g., <a href='recipe.html?category=basics&id=chocolate_buttercream' class='text-blue-600 hover:underline'>Silkiest Chocolate Buttercream</a> or <a href='recipe.html?category=basics&id=cream_cheese_frosting' class='text-blue-600 hover:underline'>Cream Cheese Frosting</a>, chocolate variation)"
+                ],
+                "preparation": [
+                    "Preheat the oven to 350°F (175°C). Arrange oven racks in the upper and lower thirds of the oven.",
+                    "Butter the bottoms and sides of three 8-inch cake pans (or two 9-inch pans). Line the bottoms with parchment paper rounds.",
+                    "Butter the parchment, then sprinkle the pans generously with flour. Shake and rotate the pans to coat, then tap out the excess.",
+                    "Coarsely chop the semisweet chocolate.",
+                    "Brew the coffee (or prepare instant coffee mixture).",
+                    "Ensure buttermilk, butter, and eggs are at room temperature."
+                ],
+                "instructions": [
+                    "In a large bowl, whisk together the flour, baking powder, salt, and baking soda. Set aside.",
+                    "In a separate large heatproof bowl, combine the chopped chocolate, coffee, and cocoa powder. Set the bowl over a medium saucepan filled with about 1 inch of simmering water. Whisk until the chocolate is melted and the mixture is completely smooth. Remove from heat and whisk in the buttermilk and vanilla. Set aside.",
+                    "In a stand mixer with the paddle attachment, combine the butter, granulated sugar, brown sugar, and oil. Beat on low speed until smooth, then increase to medium-high and beat until very light and fluffy, about 5 minutes.",
+                    "Reduce the mixer speed to medium and add the eggs one at a time, beating well after each addition. Scrape down the sides of the bowl.",
+                    "Reduce speed to low. Add one-third of the flour mixture and mix. Add half of the cooled chocolate mixture, mixing just until incorporated. Repeat with remaining flour in 2 additions and remaining chocolate mixture in 1 addition, alternating (Dry -> Wet -> Dry -> Wet -> Dry).",
+                    "Use a flexible spatula to scrape down the sides and fold the batter several times to ensure it is evenly mixed and no streaks remain.",
+                    "Divide the batter among the pans (about 18 oz / 510g per pan). Smooth the tops.",
+                    "Place the pans in the oven. Bake for 30 to 40 minutes, switching racks and rotating pans front to back halfway through. The cakes are done when the tops are firm to the touch and a cake tester comes out clean.",
+                    "Remove cakes from the oven and let cool completely in the pans. Run a small offset spatula around the sides to release, then invert onto a wire rack and peel off the parchment.",
+                    "Level the layers, if necessary. Stack and frost with your chosen frosting."
+                ],
+                "notes": "<ul class='space-y-2 list-none'><li>If baking in two 9-inch pans, bake for 40 to 45 minutes.</li><li>The cake layers can be made ahead: wrap tightly in plastic and refrigerate for up to 3 days or freeze for up to 3 weeks. Thaw before assembling.</li>",
+                "tags": [
+                    "Cookbook",
+                    "cake",
+                    "chocolate",
+                    "baking",
+                    "buttermilk"
+                ]
+            },
+            {
+                "id": "vorn",
+                "name": "Vorn",
+                "imageUrl": "./assets/desserts/vorn.png",
+                "description": "A traditional Mangalorean sweet dessert made with green gram (moong dal), jaggery, and coconut milk, thickened with rice flour.",
+                "prepTime": "40 min",
+                "cookTime": "40 min",
+                "servings": "10-12",
+                "source": "family",
+                "sourceText": "Mom",
+                "ingredients": [
+                    "1/2 kg green gram dal (moong dal)",
+                    "2 coconuts",
+                    "1 cup raw rice (flour or ground)",
+                    "1/2 kg jaggery",
+                    "1 tsp cardamom powder",
+                    "Salt (to taste)",
+                    "Water"
+                ],
+                "preparation": [
+                    "Scrape and grind the coconuts. Extract the thick juice (first extract) and the thin juice (second extract) separately. Set aside.",
+                    "Wash the green gram dal thoroughly.",
+                    "Mix the rice flour (or ground raw rice) with sufficient water to make a smooth batter."
+                ],
+                "instructions": [
+                    "Boil the washed dal in a little water until soft.",
+                    "Once soft, add the jaggery, the extracted thin coconut juice, and salt to taste.",
+                    "Pour the prepared rice flour batter into the mixture (the vorn). Stir continuously to ensure the flour does not become lumpy.",
+                    "Boil well until the flour is fully cooked and the vorn thickens to the required consistency.",
+                    "Lastly, add the thick coconut juice and the cardamom powder.",
+                    "Boil for a few more minutes, then remove from the heat."
+                ],
+                "notes": "The dal can also be boiled in the thin coconut juice instead of water for a richer flavor.",
+                "tags": [
+                    "family",
+                    "mangalorean",
+                    "coconut"
+                ]
             }
         ]
     },
     "basics": {
-        "title": "Basics & Condiments",
+        "title": "Fundamentals",
         "recipes": [
             {
                 "id": "praline_powder",
@@ -1614,8 +1984,8 @@
                 "prepTime": "5 min",
                 "cookTime": "5 min",
                 "servings": "~1 cup",
-                "source": "Cookbook",
-                "sourceText": "Umma by Sarah Ahn",
+                "source": "cookbook",
+                "sourceText": "Umma - Sarah Ahn",
                 "sourceSubtext": "A Korean Mom's Kitchen Wisdom and 100 Family Recipes",
                 "ingredients": [
                     "7 tbsp (119g) ketchup",
@@ -1654,14 +2024,14 @@
                 "prepTime": "40 min",
                 "cookTime": "-",
                 "servings": "Makes enough pastry for two 10-inch galettes",
-                "source": "Cookbook",
-                "sourceText": "Dessert Person by Claire Saffitz",
+                "source": "cookbook",
+                "sourceText": "Dessert Person - Claire Saffitz",
                 "sourceSubtext": "Recipes and Guidance for Baking with Confidence",
                 "ingredients": [
                     "3 sticks (12 oz / 340g) unsalted butter, chilled and divided",
-                    "3 1/4 cups (16 oz / 453g) all-purpose flour, plus more for rolling",
+                    "3.25 cups (16 oz / 453g) all-purpose flour, plus more for rolling",
                     "1 tbsp sugar",
-                    "1 1/2 tsp (0.3 oz / 9g) Diamond Crystal kosher salt",
+                    "1.5 tsp (0.3 oz / 9g) Diamond Crystal kosher salt",
                     "1/2 cup (4 oz / 113g) ice water"
                 ],
                 "preparation": [
@@ -1697,16 +2067,16 @@
                 "imageUrl": "./assets/basics/pie_dough.png",
                 "description": "An essential flaky, all-butter pie dough. This recipe uses a mix of sliced and smashed butter to create a flaky, layered crust.",
                 "prepTime": "30 min",
-                "cookTime": "0 min",
+                "cookTime": "-",
                 "servings": "Makes enough for one 9-inch pie crust",
-                "source": "Cookbook",
-                "sourceText": "Dessert Person by Claire Saffitz",
+                "source": "cookbook",
+                "sourceText": "Dessert Person - Claire Saffitz",
                 "sourceSubtext": "Recipes and Guidance for Baking with Confidence",
                 "ingredients": [
                     "1 stick plus 5 tbsp unsalted butter (6.25 oz / 177g), cold and divided",
                     "1 2/3 cups all-purpose flour (7 oz / 200g), plus more for rolling",
                     "1 tbsp granulated sugar (0.46 oz / 13g)",
-                    "1 1/2 tsp Diamond Crystal kosher salt",
+                    "1.5 tsp Diamond Crystal kosher salt",
                     "1/2 cup (4 oz / 113g) ice water, plus more as needed"
                 ],
                 "preparation": [
@@ -1727,7 +2097,7 @@
                     "Fold the dough in thirds like a letter (bottom third up, top third down).",
                     "Wrap the folded dough tightly in plastic and refrigerate for at least 30 minutes before rolling it out for your pie."
                 ],
-                "notes": "Baking options:<ul class='space-y-2 list-none'><li>To par-bake, line with foil and weights, bake at 425°F for 10 min. Remove weights, prick bottom, and bake 10-15 min more.</li><li>To fully bake, follow par-bake steps but bake for 20-25 min after removing weights.</li></ul>",
+                "notes": "<p class='font-bold text-xl'>Baking options:</p><ul class='space-y-2 list-none'><li>To par-bake, line with foil and weights, bake at 425°F for 10 min. Remove weights, prick bottom, and bake 10-15 min more.</li><li>To fully bake, follow par-bake steps but bake for 20-25 min after removing weights.</li></ul>",
                 "tags": [
                     "Cookbook",
                     "pastry",
@@ -1735,6 +2105,89 @@
                     "dough",
                     "butter",
                     "laminated"
+                ]
+            },
+            {
+                "id": "cream_cheese_frosting",
+                "name": "Classic Cream Cheese Frosting",
+                "imageUrl": "./assets/basics/cream_cheese_frosting.png",
+                "description": "A sweet but not saccharine frosting, well balanced by the tang of cream cheese. It beats any plain or vanilla-flavored European buttercream when paired with carrot cake, red velvet, or coconut cake.",
+                "prepTime": "10 min",
+                "cookTime": "-",
+                "servings": "~4.5 cups",
+                "source": "cookbook",
+                "sourceText": "Dessert Person - Claire Saffitz",
+                "sourceSubtext": "Recipes and Guidance for Baking with Confidence",
+                "ingredients": [
+                    "2 sticks (8 oz / 227g) unsalted butter",
+                    "1 lb (454g) full-fat cream cheese (preferably Philadelphia)",
+                    "Generous pinch of kosher salt",
+                    "1 lb (454g) powdered sugar (about 3 1/2 cups)",
+                    "Seeds scraped from 1 vanilla bean or 2 tsp vanilla extract"
+                ],
+                "preparation": [
+                    "Ensure the butter and cream cheese are both completely at room temperature to prevent lumps.",
+                    "Sift the powdered sugar if it is very lumpy.",
+                    "Scrape the seeds from the vanilla bean (if using)."
+                ],
+                "instructions": [
+                    "In a stand mixer fitted with the paddle attachment, beat the butter and cream cheese on medium-high speed.",
+                    "Scrape down the sides of the bowl occasionally and continue beating until the mixture is completely smooth.",
+                    "Turn off the mixer. Add the salt and all of the powdered sugar.",
+                    "Cover the bowl of the mixer with a clean kitchen towel to shield yourself from powdered sugar plumes.",
+                    "Pulse the mixer on low several times to incorporate the sugar.",
+                    "Remove the towel and beat the frosting on medium-high, scraping down the sides once or twice, until the frosting is light, thick, and very smooth, about 1 minute.",
+                    "Beat in the vanilla seeds (or extract). The frosting is now ready to use."
+                ],
+                "notes": "Make sure ingredients are at room temperature; if the frosting is lumpy, microwave about 1/4 cup of the mixture until liquefied, return it to the bowl, and beat until smooth.<p class='font-bold text-xl'>Variations:</p><ul class='space-y-2 list-none'><li><i>Chocolate Cream Cheese Frosting</i>: Add 6 oz (170g) melted and cooled unsweetened chocolate to the bowl after adding the vanilla. Beat until smooth.</li><li><i>Brown Butter Cream Cheese Frosting</i>: Brown the butter first, let it cool and solidify, then proceed with the recipe.</li>",
+                "tags": [
+                    "Cookbook",
+                    "frosting",
+                    "cream cheese"
+                ]
+            },
+            {
+                "id": "chocolate_buttercream",
+                "name": "Silkiest Chocolate Buttercream",
+                "imageUrl": "./assets/basics/chocolate_buttercream.png",
+                "description": "A technically challenging but incredibly smooth, stable, and not-too-sweet French-style buttercream. It involves streaming a hot sugar syrup into whipped eggs, followed by butter and melted chocolate.",
+                "prepTime": "35 min",
+                "cookTime": "0 min",
+                "servings": "~4 cups",
+                "source": "cookbook",
+                "sourceText": "Dessert Person - Claire Saffitz",
+                "sourceSubtext": "Recipes and Guidance for Baking with Confidence",
+                "ingredients": [
+                    "2 large eggs (3.5 oz / 100g)",
+                    "2 large egg yolks (1.1 oz / 32g)",
+                    "3/4 cup (5.3 oz / 150g) sugar",
+                    "3 tbsp (1.5 oz / 43g) water",
+                    "1 tsp Diamond Crystal kosher salt (0.11oz / 3g)",
+                    "2.5 sticks (10 oz / 283g) unsalted butter",
+                    "8 oz (227g) semisweet chocolate (68-70% cocoa)",
+                    "2 tsp vanilla extract"
+                ],
+                "preparation": [
+                    "Ensure the eggs and butter are both completely at room temperature to prevent lumps.",
+                    "Cut the butter into tablespoons.",
+                    "Melt the chocolate and let it cool completely. It should still be very liquid but not warm to the touch.",
+                    "In a small saucepan, combine the sugar and water. Swirl to wet the sugar."
+                ],
+                "instructions": [
+                    "Place the whole eggs and egg yolks in the bowl of a stand mixer fitted with the whisk attachment.",
+                    "Turn the mixer on medium-low just to break up the eggs, then add the salt and increase speed to medium. Beat until the mixture is very light, pale, and falls off the whisk in a slowly dissolving ribbon (about 5 minutes). While waiting, pivot to the sugar.",
+                    "Heat the sugar mixture over medium-high heat, stirring until dissolved. Stop stirring, wash down the sides of the pan with a wet pastry brush, and insert a candy thermometer. Boil until the syrup hits 115°C/238°F (soft-ball stage).",
+                    "Immediately remove syrup from heat. Turn the mixer to medium-high. Slowly and carefully stream the hot syrup down the side of the bowl into the egg mixture (avoid hitting the whisk).",
+                    "Increase mixer to high and beat until the egg mixture is very light, dense, and the sides of the bowl are completely cool to the touch (5 to 8 minutes).",
+                    "With the mixer running, add the room-temperature butter one piece at a time, ensuring each piece incorporates before adding the next. The mixture may look soupy or curdled briefly; keep beating until it comes back together into a smooth cream.",
+                    "Stop the mixer, scrape down the sides, and pour in the cooled melted chocolate and vanilla extract. Beat on medium speed until no streaks remain. The buttercream is now ready to use."
+                ],
+                "notes": "<ul class='space-y-2 list-none'><li>Ensure the chocolate is completely cooled before adding; if warm, it will melt the butter and ruin the texture.</li><li>If the buttercream becomes soupy (too warm), refrigerate briefly and re-whip.</li><li>If it looks curdled (too cold), wrap a warm towel around the bowl while whipping.</li><li>Storage: Keeps airtight in the fridge for 1 week or freezer for 1 month. Bring to room temperature and re-whip before using.</li>",
+                "tags": [
+                    "Cookbook",
+                    "frosting",
+                    "buttercream",
+                    "chocolate"
                 ]
             }
         ]

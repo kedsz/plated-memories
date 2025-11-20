@@ -105,12 +105,19 @@ function renderCategoryPage(data, categoryKey) {
  */
 function renderSourceRecipePage(data, sourceName) {
     const gridContainer = document.getElementById('recipe-grid');
+    const sourceImageContainer = document.getElementById('source-image');
     const backButton = document.getElementById('all-sources');
 
     loadComponents(data, sourceName);
 
     if (sourceName) {
         updateHeader({ "title": sourceName }, 'sources');
+        const imgHTML = `<img src="./assets/sources/${sourceName}.jpeg" 
+                              alt="${sourceName}"
+                              class="w-48 h-48 rounded-full mb-4 object-cover border-2 border-orange-100"
+                              onerror="this.onerror=null;this.src='https://placehold.co/128x128/ccc/fff?text=?';"></img>`;
+        sourceImageContainer.innerHTML = imgHTML;
+        sourceImageContainer.classList.remove('hidden');
 
         // Filter recipes by source
         const allRecipes = Object.entries(data).flatMap(([categoryKey, categoryData]) =>
@@ -122,6 +129,9 @@ function renderSourceRecipePage(data, sourceName) {
         const recipesFromSource = allRecipes.filter(recipe => {
             if (recipe.source === 'family' && recipe.sourceText) {
                 return recipe.sourceText === sourceName;
+            }
+            if (recipe.source === 'cookbook' && recipe.sourceText) {
+                return recipe.sourceText.split(" - ")[1] === sourceName;
             }
             return recipe.source === sourceName;
         });

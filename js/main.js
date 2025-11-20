@@ -183,7 +183,7 @@ export function setupNavbar(data, categoryKey) {
         let ref = categoryKey ? './category.html?category=' + key : '#' + key;
         navLinksHTML += `
             <li>
-                <a href="${ref}" class="nav-link block py-2 px-4 text-stone-600 hover:text-amber-700 font-serif text-xl transition-colors">${value.title}</a>
+                <a href="${ref}" class="nav-link block py-2 px-4 text-stone-600 hover:text-amber-700 font-serif lg:text-xl transition-colors">${value.title}</a>
             </li>
         `;
     }

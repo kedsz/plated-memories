@@ -11,6 +11,9 @@ function getAllUniqueSources(data) {
         if (recipe.source === 'family' && recipe.sourceText) {
             return recipe.sourceText;
         }
+        if (recipe.source === 'cookbook' && recipe.sourceText) {
+            return recipe.sourceText.split(" - ")[1];
+        }
         return recipe.source;
     });
     return [...new Set(allSources)].sort();
